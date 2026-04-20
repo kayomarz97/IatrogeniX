@@ -1,0 +1,4425 @@
+{
+  "metadata": {
+    "description": "Merged drug database (Cardiology + Nephrology + GI)",
+    "total_subspecialties": 15,
+    "version": "2.0-MaximumCoverage",
+    "source": "Oxford Handbooks / BNF"
+  },
+  "subspecialties": {
+    "cardiology": {
+      "count": 100,
+      "drugs": [
+        {
+          "name": "Aspirin",
+          "class": "Antiplatelet",
+          "dose": "75-325mg OD",
+          "max_daily": "325mg",
+          "route": "PO",
+          "indication": "ACS, stroke prevention",
+          "black_box": "GI bleed risk"
+        },
+        {
+          "name": "Clopidogrel",
+          "class": "Antiplatelet",
+          "dose": "75mg OD",
+          "max_daily": "75mg",
+          "route": "PO",
+          "indication": "ACS, PCI",
+          "black_box": "CYP2C19 poor metabolisers"
+        },
+        {
+          "name": "Ticagrelor",
+          "class": "Antiplatelet P2Y12",
+          "dose": "90mg BD",
+          "max_daily": "180mg",
+          "route": "PO",
+          "indication": "ACS",
+          "black_box": "Bleeding"
+        },
+        {
+          "name": "Prasugrel",
+          "class": "Antiplatelet P2Y12",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "ACS with PCI",
+          "black_box": "Bleeding, prior TIA/stroke CI"
+        },
+        {
+          "name": "Heparin (UFH)",
+          "class": "Anticoagulant",
+          "dose": "80 units/kg IV bolus then 18 units/kg/hr",
+          "max_daily": "variable",
+          "route": "IV",
+          "indication": "ACS, DVT, PE",
+          "black_box": "HIT"
+        },
+        {
+          "name": "Enoxaparin",
+          "class": "LMWH",
+          "dose": "1mg/kg SC BD or 1.5mg/kg OD",
+          "max_daily": "150mg",
+          "route": "SC",
+          "indication": "DVT, ACS",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Warfarin",
+          "class": "Vitamin K antagonist",
+          "dose": "Individualised, target INR 2-3",
+          "max_daily": "variable",
+          "route": "PO",
+          "indication": "AF, VTE, mechanical valves",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Rivaroxaban",
+          "class": "Direct Xa inhibitor",
+          "dose": "20mg OD with food",
+          "max_daily": "20mg",
+          "route": "PO",
+          "indication": "AF, VTE",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Apixaban",
+          "class": "Direct Xa inhibitor",
+          "dose": "5mg BD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "AF, VTE",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Dabigatran",
+          "class": "Direct thrombin inhibitor",
+          "dose": "150mg BD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "AF, VTE",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Metoprolol",
+          "class": "Beta-1 blocker",
+          "dose": "25-200mg BD",
+          "max_daily": "400mg",
+          "route": "PO/IV",
+          "indication": "ACS, HF, AF",
+          "black_box": "Abrupt withdrawal"
+        },
+        {
+          "name": "Carvedilol",
+          "class": "Alpha/beta blocker",
+          "dose": "3.125-25mg BD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "HFrEF",
+          "black_box": "Abrupt withdrawal"
+        },
+        {
+          "name": "Bisoprolol",
+          "class": "Beta-1 blocker",
+          "dose": "1.25-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "HF, AF",
+          "black_box": "Abrupt withdrawal"
+        },
+        {
+          "name": "Atenolol",
+          "class": "Beta-1 blocker",
+          "dose": "25-100mg OD",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "HTN, angina",
+          "black_box": "Abrupt withdrawal"
+        },
+        {
+          "name": "Labetalol",
+          "class": "Alpha/beta blocker",
+          "dose": "200mg BD; IV 20-80mg bolus",
+          "max_daily": "2400mg",
+          "route": "PO/IV",
+          "indication": "HTN emergency, pre-eclampsia",
+          "black_box": "None"
+        },
+        {
+          "name": "Lisinopril",
+          "class": "ACE inhibitor",
+          "dose": "2.5-40mg OD",
+          "max_daily": "40mg",
+          "route": "PO",
+          "indication": "HF, HTN, post-MI",
+          "black_box": "Angioedema, pregnancy CI"
+        },
+        {
+          "name": "Ramipril",
+          "class": "ACE inhibitor",
+          "dose": "1.25-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "HF, HTN, nephroprotection",
+          "black_box": "Angioedema, pregnancy CI"
+        },
+        {
+          "name": "Enalapril",
+          "class": "ACE inhibitor",
+          "dose": "5-40mg OD",
+          "max_daily": "40mg",
+          "route": "PO/IV",
+          "indication": "HF, HTN",
+          "black_box": "Angioedema"
+        },
+        {
+          "name": "Losartan",
+          "class": "ARB",
+          "dose": "25-100mg OD",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "HTN, HF, DM nephropathy",
+          "black_box": "Pregnancy CI"
+        },
+        {
+          "name": "Valsartan",
+          "class": "ARB",
+          "dose": "80-320mg OD",
+          "max_daily": "320mg",
+          "route": "PO",
+          "indication": "HTN, HF post-MI",
+          "black_box": "Pregnancy CI"
+        },
+        {
+          "name": "Sacubitril/Valsartan",
+          "class": "ARNI",
+          "dose": "24/26-97/103mg BD",
+          "max_daily": "194/206mg",
+          "route": "PO",
+          "indication": "HFrEF",
+          "black_box": "Angioedema, do not combine with ACEi"
+        },
+        {
+          "name": "Amlodipine",
+          "class": "CCB dihydropyridine",
+          "dose": "2.5-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "HTN, angina",
+          "black_box": "None"
+        },
+        {
+          "name": "Diltiazem",
+          "class": "CCB non-dihydropyridine",
+          "dose": "60-360mg OD (SR)",
+          "max_daily": "360mg",
+          "route": "PO",
+          "indication": "AF, angina, HTN",
+          "black_box": "HF with systolic dysfunction"
+        },
+        {
+          "name": "Verapamil",
+          "class": "CCB non-dihydropyridine",
+          "dose": "40-120mg TDS",
+          "max_daily": "480mg",
+          "route": "PO/IV",
+          "indication": "AF, SVT, angina",
+          "black_box": "HF, concomitant beta-blocker IV"
+        },
+        {
+          "name": "Nifedipine",
+          "class": "CCB dihydropyridine",
+          "dose": "5-30mg BD (MR)",
+          "max_daily": "90mg",
+          "route": "PO",
+          "indication": "HTN, Raynaud's, angina",
+          "black_box": "Immediate release in ACS CI"
+        },
+        {
+          "name": "Hydralazine",
+          "class": "Direct vasodilator",
+          "dose": "25-50mg QDS",
+          "max_daily": "200mg",
+          "route": "PO/IV",
+          "indication": "HF (with nitrate), HTN emergency",
+          "black_box": "Drug-induced lupus"
+        },
+        {
+          "name": "Furosemide",
+          "class": "Loop diuretic",
+          "dose": "20-80mg OD; IV 40mg",
+          "max_daily": "4000mg in refractory HF",
+          "route": "PO/IV",
+          "indication": "HF, oedema, HTN",
+          "black_box": "Ototoxicity at high dose"
+        },
+        {
+          "name": "Spironolactone",
+          "class": "Aldosterone antagonist",
+          "dose": "25-50mg OD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "HFrEF, hyperaldosteronism",
+          "black_box": "Hyperkalaemia, gynaecomastia"
+        },
+        {
+          "name": "Eplerenone",
+          "class": "Selective aldosterone antagonist",
+          "dose": "25-50mg OD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "Post-MI HF",
+          "black_box": "Hyperkalaemia"
+        },
+        {
+          "name": "Digoxin",
+          "class": "Cardiac glycoside",
+          "dose": "0.125-0.25mg OD",
+          "max_daily": "0.25mg",
+          "route": "PO/IV",
+          "indication": "AF rate control, HF",
+          "black_box": "Narrow therapeutic index; toxicity"
+        },
+        {
+          "name": "Amiodarone",
+          "class": "Class III antiarrhythmic",
+          "dose": "200mg TDS 1wk, 200mg BD 1wk, 200mg OD",
+          "max_daily": "1200mg load",
+          "route": "PO/IV",
+          "indication": "AF, VT, VF",
+          "black_box": "Pulmonary/hepatic/thyroid toxicity"
+        },
+        {
+          "name": "Lidocaine",
+          "class": "Class Ib antiarrhythmic",
+          "dose": "1-1.5mg/kg IV bolus",
+          "max_daily": "3mg/kg",
+          "route": "IV",
+          "indication": "VT, peri-arrest arrhythmia",
+          "black_box": "CNS/cardiac toxicity"
+        },
+        {
+          "name": "Adenosine",
+          "class": "Endogenous nucleoside",
+          "dose": "6mg rapid IV; may repeat 12mg",
+          "max_daily": "30mg",
+          "route": "IV",
+          "indication": "SVT termination, WPW diagnosis",
+          "black_box": "Bronchospasm, heart block"
+        },
+        {
+          "name": "Atropine",
+          "class": "Anticholinergic",
+          "dose": "0.5-1mg IV",
+          "max_daily": "3mg",
+          "route": "IV",
+          "indication": "Bradycardia, organophosphate poisoning",
+          "black_box": "Closed-angle glaucoma CI"
+        },
+        {
+          "name": "Norepinephrine",
+          "class": "Vasopressor/catecholamine",
+          "dose": "0.01-3 mcg/kg/min IV",
+          "max_daily": "Titrate to MAP",
+          "route": "IV",
+          "indication": "Septic shock, distributive shock",
+          "black_box": "Ischaemia"
+        },
+        {
+          "name": "Epinephrine",
+          "class": "Catecholamine",
+          "dose": "1mg IV (arrest); 0.3mg IM (anaphylaxis)",
+          "max_daily": "Titrate",
+          "route": "IV/IM",
+          "indication": "Cardiac arrest, anaphylaxis",
+          "black_box": "Arrhythmia risk"
+        },
+        {
+          "name": "Dobutamine",
+          "class": "Inotrope beta-1 agonist",
+          "dose": "2.5-20 mcg/kg/min",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Cardiogenic shock, acute HF",
+          "black_box": "Tachycardia, arrhythmia"
+        },
+        {
+          "name": "Dopamine",
+          "class": "Catecholamine inotrope",
+          "dose": "2-20 mcg/kg/min",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Shock (historical), HF",
+          "black_box": "Arrhythmia, limb ischaemia"
+        },
+        {
+          "name": "Milrinone",
+          "class": "PDE3 inhibitor inotrope",
+          "dose": "0.375-0.75 mcg/kg/min",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Acute HF, cardiogenic shock",
+          "black_box": "Arrhythmia, hypotension"
+        },
+        {
+          "name": "Sodium Nitroprusside",
+          "class": "Vasodilator",
+          "dose": "0.3-10 mcg/kg/min",
+          "max_daily": "Titrate (max 72hr)",
+          "route": "IV",
+          "indication": "HTN emergency, HF",
+          "black_box": "Cyanide toxicity with prolonged use"
+        },
+        {
+          "name": "GTN (Nitroglycerin)",
+          "class": "Nitrate vasodilator",
+          "dose": "0.4mg SL; IV 5-200 mcg/min",
+          "max_daily": "Titrate",
+          "route": "SL/IV/topical",
+          "indication": "Angina, STEMI, acute pulmonary oedema",
+          "black_box": "Hypotension, PDE5 inhibitor CI"
+        },
+        {
+          "name": "Isosorbide Mononitrate",
+          "class": "Long-acting nitrate",
+          "dose": "30-120mg OD",
+          "max_daily": "120mg",
+          "route": "PO",
+          "indication": "Angina prophylaxis",
+          "black_box": "Tolerance with continuous use"
+        },
+        {
+          "name": "Ivabradine",
+          "class": "If channel inhibitor",
+          "dose": "5-7.5mg BD",
+          "max_daily": "15mg",
+          "route": "PO",
+          "indication": "HFrEF in sinus rhythm, angina",
+          "black_box": "AF contraindicated"
+        },
+        {
+          "name": "Dapagliflozin",
+          "class": "SGLT2 inhibitor",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "HFrEF, HFpEF, DM",
+          "black_box": "DKA, Fournier's gangrene"
+        },
+        {
+          "name": "Empagliflozin",
+          "class": "SGLT2 inhibitor",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "HFrEF, DM, CKD",
+          "black_box": "DKA"
+        },
+        {
+          "name": "Atorvastatin",
+          "class": "Statin HMG-CoA reductase inhibitor",
+          "dose": "10-80mg OD",
+          "max_daily": "80mg",
+          "route": "PO",
+          "indication": "Dyslipidaemia, CVD prevention",
+          "black_box": "Myopathy/rhabdomyolysis (rare)"
+        },
+        {
+          "name": "Rosuvastatin",
+          "class": "Statin",
+          "dose": "5-40mg OD",
+          "max_daily": "40mg",
+          "route": "PO",
+          "indication": "Dyslipidaemia",
+          "black_box": "Myopathy"
+        },
+        {
+          "name": "Ezetimibe",
+          "class": "Cholesterol absorption inhibitor",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "Hypercholesterolaemia",
+          "black_box": "None"
+        },
+        {
+          "name": "Evolocumab",
+          "class": "PCSK9 inhibitor",
+          "dose": "140mg SC Q2W or 420mg Q4W",
+          "max_daily": "N/A",
+          "route": "SC",
+          "indication": "Familial hypercholesterolaemia, high CV risk",
+          "black_box": "None"
+        },
+        {
+          "name": "Alteplase (tPA)",
+          "class": "Thrombolytic",
+          "dose": "0.9mg/kg IV (max 90mg) in stroke; 100mg over 2hr in PE",
+          "max_daily": "100mg",
+          "route": "IV",
+          "indication": "Ischaemic stroke, STEMI, massive PE",
+          "black_box": "Major haemorrhage"
+        },
+        {
+          "name": "Candesartan",
+          "class": "ARB",
+          "dose": "4-32mg OD",
+          "max_daily": "32mg",
+          "route": "PO",
+          "indication": "HF, HTN",
+          "black_box": "Pregnancy CI"
+        },
+        {
+          "name": "Flecainide",
+          "class": "Class Ic antiarrhythmic",
+          "dose": "50-200mg BD",
+          "max_daily": "400mg",
+          "route": "PO/IV",
+          "indication": "AF/flutter in structurally normal heart",
+          "black_box": "Structural heart disease CI"
+        },
+        {
+          "name": "Sotalol",
+          "class": "Class III antiarrhythmic + beta-blocker",
+          "dose": "80-160mg BD",
+          "max_daily": "320mg",
+          "route": "PO",
+          "indication": "AF maintenance, VT",
+          "black_box": "QT prolongation, Torsades de Pointes"
+        },
+        {
+          "name": "Dronedarone",
+          "class": "Class III antiarrhythmic",
+          "dose": "400mg BD",
+          "max_daily": "800mg",
+          "route": "PO",
+          "indication": "Non-permanent AF",
+          "black_box": "Permanent AF contraindicated, HF contraindicated"
+        },
+        {
+          "name": "Adrenaline (Cardiac)",
+          "class": "Catecholamine",
+          "dose": "1mg IV Q3-5min in PEA/asystole",
+          "max_daily": "Resuscitation",
+          "route": "IV",
+          "indication": "Cardiac arrest",
+          "black_box": "Post-ROSC avoid excess"
+        },
+        {
+          "name": "Vasopressin",
+          "class": "Antidiuretic hormone/vasopressor",
+          "dose": "0.03-0.04 units/min IV",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Septic shock (adjunct)",
+          "black_box": "Mesenteric ischaemia"
+        },
+        {
+          "name": "Phenylephrine",
+          "class": "Alpha-1 agonist vasopressor",
+          "dose": "50-200 mcg/min IV",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Vasodilatory hypotension",
+          "black_box": "Bradycardia reflex"
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "class": "Thiazide diuretic",
+          "dose": "12.5-50mg OD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "HTN, oedema",
+          "black_box": "Electrolyte disturbance"
+        },
+        {
+          "name": "Indapamide",
+          "class": "Thiazide-like diuretic",
+          "dose": "1.5-2.5mg OD",
+          "max_daily": "2.5mg",
+          "route": "PO",
+          "indication": "HTN",
+          "black_box": "None"
+        },
+        {
+          "name": "Torasemide",
+          "class": "Loop diuretic",
+          "dose": "5-40mg OD",
+          "max_daily": "200mg",
+          "route": "PO/IV",
+          "indication": "HF oedema",
+          "black_box": "Electrolyte disturbance"
+        },
+        {
+          "name": "Bumetanide",
+          "class": "Loop diuretic",
+          "dose": "0.5-4mg OD",
+          "max_daily": "10mg",
+          "route": "PO/IV",
+          "indication": "HF oedema",
+          "black_box": "Ototoxicity"
+        },
+        {
+          "name": "Dofetilide",
+          "class": "Class III antiarrhythmic",
+          "dose": "125-500 mcg BD",
+          "max_daily": "1000 mcg",
+          "route": "PO",
+          "indication": "AF/flutter conversion",
+          "black_box": "QT prolongation, hospital initiation required"
+        },
+        {
+          "name": "Vernakalant",
+          "class": "Mixed channel blocker",
+          "dose": "3mg/kg IV over 10min",
+          "max_daily": "Titrated",
+          "route": "IV",
+          "indication": "Acute AF cardioversion",
+          "black_box": "Hypotension"
+        },
+        {
+          "name": "Esmolol",
+          "class": "Ultra-short beta-1 blocker",
+          "dose": "500 mcg/kg bolus; 50-300 mcg/kg/min",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "SVT, AF, HTN emergency perioperative",
+          "black_box": "Abrupt discontinuation"
+        },
+        {
+          "name": "Metaraminol",
+          "class": "Alpha-1 agonist vasopressor",
+          "dose": "0.5-5mg IV",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Spinal hypotension, surgical hypotension",
+          "black_box": "Hypertension overshoot"
+        },
+        {
+          "name": "Levosimendan",
+          "class": "Calcium sensitiser/PDE3 inhibitor",
+          "dose": "0.1 mcg/kg/min; loading 12 mcg/kg optional",
+          "max_daily": "0.2 mcg/kg/min",
+          "route": "IV",
+          "indication": "Acute decompensated HF",
+          "black_box": "Hypotension"
+        },
+        {
+          "name": "Nesiritide (BNP)",
+          "class": "Recombinant BNP",
+          "dose": "2 mcg/kg bolus; 0.01 mcg/kg/min",
+          "max_daily": "Titrated",
+          "route": "IV",
+          "indication": "Acute decompensated HF",
+          "black_box": "Hypotension"
+        },
+        {
+          "name": "Fondaparinux",
+          "class": "Factor Xa inhibitor",
+          "dose": "2.5mg SC OD",
+          "max_daily": "2.5mg",
+          "route": "SC",
+          "indication": "ACS (NSTEMI), DVT prophylaxis",
+          "black_box": "HIT alternative"
+        },
+        {
+          "name": "Bivalirudin",
+          "class": "Direct thrombin inhibitor",
+          "dose": "0.75mg/kg bolus; 1.75mg/kg/hr",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "PCI anticoagulation, HIT",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Cangrelor",
+          "class": "IV P2Y12 inhibitor",
+          "dose": "30 mcg/kg bolus; 4 mcg/kg/min",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "PCI in P2Y12-naive patients",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Idarucizumab",
+          "class": "Dabigatran reversal agent",
+          "dose": "5g IV (2x2.5g)",
+          "max_daily": "5g",
+          "route": "IV",
+          "indication": "Dabigatran reversal in emergency",
+          "black_box": "None"
+        },
+        {
+          "name": "Andexanet Alfa",
+          "class": "Factor Xa inhibitor reversal",
+          "dose": "400-800mg IV bolus then infusion",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Rivaroxaban/apixaban reversal",
+          "black_box": "Thrombosis risk"
+        },
+        {
+          "name": "Phytomenadione (Vit K)",
+          "class": "Vitamin K",
+          "dose": "1-10mg IV/PO",
+          "max_daily": "10mg",
+          "route": "PO/IV/SC",
+          "indication": "Warfarin reversal, coagulopathy",
+          "black_box": "Anaphylaxis (IV rapid)"
+        },
+        {
+          "name": "Protamine Sulfate",
+          "class": "Heparin antagonist",
+          "dose": "1mg per 100 units heparin",
+          "max_daily": "50mg per dose",
+          "route": "IV",
+          "indication": "Heparin reversal",
+          "black_box": "Hypotension, anaphylaxis"
+        },
+        {
+          "name": "Abiraterone",
+          "class": "CYP17 inhibitor",
+          "dose": "1000mg OD (with prednisolone)",
+          "max_daily": "1000mg",
+          "route": "PO",
+          "indication": "Prostate cancer (cardiology consult for QT)",
+          "black_box": "Hepatotoxicity, HTN"
+        },
+        {
+          "name": "Ranolazine",
+          "class": "Late sodium current inhibitor",
+          "dose": "375-750mg BD",
+          "max_daily": "1500mg",
+          "route": "PO",
+          "indication": "Refractory angina",
+          "black_box": "QT prolongation"
+        },
+        {
+          "name": "Trimetazidine",
+          "class": "Metabolic antianginal",
+          "dose": "35mg BD",
+          "max_daily": "70mg",
+          "route": "PO",
+          "indication": "Stable angina adjunct",
+          "black_box": "Parkinsonism risk"
+        },
+        {
+          "name": "Colchicine",
+          "class": "Anti-inflammatory",
+          "dose": "0.5mg BD",
+          "max_daily": "1mg",
+          "route": "PO",
+          "indication": "Pericarditis, AF postoperative prevention",
+          "black_box": "GI toxicity, myopathy"
+        },
+        {
+          "name": "Ibuprofen",
+          "class": "NSAID",
+          "dose": "400-600mg TDS",
+          "max_daily": "2400mg",
+          "route": "PO",
+          "indication": "Pericarditis (first-line)",
+          "black_box": "GI bleed, CV events"
+        },
+        {
+          "name": "Tolvaptan",
+          "class": "V2 receptor antagonist (aquaretic)",
+          "dose": "15-60mg OD",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "Hyponatraemia in HF/SIADH",
+          "black_box": "Liver failure risk >30 days"
+        },
+        {
+          "name": "Sacubitril",
+          "class": "Neprilysin inhibitor (given as ARNI)",
+          "dose": "Combined with valsartan",
+          "max_daily": "See ARNI",
+          "route": "PO",
+          "indication": "HFrEF",
+          "black_box": "See sacubitril/valsartan entry"
+        },
+        {
+          "name": "Nicorandil",
+          "class": "KATP channel opener + nitrate",
+          "dose": "5-30mg BD",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "Stable angina",
+          "black_box": "GI ulceration (mouth, anus)"
+        },
+        {
+          "name": "Isosorbide Dinitrate",
+          "class": "Short-acting nitrate",
+          "dose": "5-40mg TDS",
+          "max_daily": "120mg",
+          "route": "PO/SL",
+          "indication": "Angina",
+          "black_box": "Tolerance, headache"
+        },
+        {
+          "name": "Riociguat",
+          "class": "sGC stimulator",
+          "dose": "0.5-2.5mg TDS",
+          "max_daily": "7.5mg",
+          "route": "PO",
+          "indication": "PAH, CTEPH",
+          "black_box": "Pregnancy CI, PDE5 inhibitor CI"
+        },
+        {
+          "name": "Bosentan",
+          "class": "Endothelin receptor antagonist",
+          "dose": "62.5-125mg BD",
+          "max_daily": "250mg",
+          "route": "PO",
+          "indication": "Pulmonary arterial hypertension",
+          "black_box": "Hepatotoxicity, teratogenicity"
+        },
+        {
+          "name": "Sildenafil",
+          "class": "PDE5 inhibitor",
+          "dose": "20mg TDS (PAH); 25-100mg PRN (ED)",
+          "max_daily": "60mg (PAH)",
+          "route": "PO",
+          "indication": "PAH, erectile dysfunction",
+          "black_box": "Nitrate CI, hypotension"
+        },
+        {
+          "name": "Ambrisentan",
+          "class": "Selective ERA",
+          "dose": "5-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "PAH",
+          "black_box": "Teratogenicity, fluid retention"
+        },
+        {
+          "name": "Macitentan",
+          "class": "ERA",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "PAH",
+          "black_box": "Teratogenicity, anaemia"
+        },
+        {
+          "name": "Selexipag",
+          "class": "Prostacyclin receptor agonist",
+          "dose": "Titrated 200-1600 mcg BD",
+          "max_daily": "3200 mcg",
+          "route": "PO",
+          "indication": "PAH",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Treprostinil",
+          "class": "Prostacyclin analogue",
+          "dose": "Variable SC/inhaled",
+          "max_daily": "Titrate",
+          "route": "SC/inhaled/IV",
+          "indication": "PAH",
+          "black_box": "Infusion site pain"
+        },
+        {
+          "name": "Iloprost",
+          "class": "Prostacyclin analogue",
+          "dose": "2.5-5 mcg inhaled 6-9x/day",
+          "max_daily": "45 mcg",
+          "route": "Inhaled",
+          "indication": "PAH",
+          "black_box": "Syncope"
+        },
+        {
+          "name": "Dexrazoxane",
+          "class": "Cardioprotectant",
+          "dose": "500mg/m\u00b2",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Anthracycline cardioprotection",
+          "black_box": "Secondary malignancy"
+        },
+        {
+          "name": "Ivermectin",
+          "class": "Antiparasitic (noted for cardiac interactions)",
+          "dose": "150-200 mcg/kg",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "Onchocerciasis, strongyloidiasis",
+          "black_box": "CNS toxicity in BBB disorders"
+        },
+        {
+          "name": "Vericiguat",
+          "class": "sGC stimulator",
+          "dose": "2.5-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "HFrEF"
+        },
+        {
+          "name": "Mexiletine",
+          "class": "Class Ib antiarrhythmic",
+          "dose": "150-200mg TDS",
+          "max_daily": "1200mg",
+          "route": "PO",
+          "indication": "VT"
+        },
+        {
+          "name": "Procainamide",
+          "class": "Class Ia antiarrhythmic",
+          "dose": "10-15mg/kg IV load",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "AF in WPW, VT"
+        },
+        {
+          "name": "Quinidine",
+          "class": "Class Ia antiarrhythmic",
+          "dose": "200-400mg TDS",
+          "max_daily": "1600mg",
+          "route": "PO",
+          "indication": "Brugada, AF"
+        },
+        {
+          "name": "Disopyramide",
+          "class": "Class Ia antiarrhythmic",
+          "dose": "100-200mg QDS",
+          "max_daily": "800mg",
+          "route": "PO",
+          "indication": "HCM, VT"
+        },
+        {
+          "name": "Propafenone",
+          "class": "Class Ic antiarrhythmic",
+          "dose": "150-300mg TDS",
+          "max_daily": "900mg",
+          "route": "PO",
+          "indication": "AF prevention"
+        },
+        {
+          "name": "Epoprostenol",
+          "class": "Prostacyclin",
+          "dose": "2ng/kg/min",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "PAH"
+        }
+      ]
+    },
+    "pulmonology": {
+      "count": 90,
+      "drugs": [
+        {
+          "name": "Salbutamol",
+          "class": "SABA beta-2 agonist",
+          "dose": "100-200 mcg inhaled PRN; 2.5-5mg nebulised",
+          "max_daily": "800 mcg inhaled",
+          "route": "Inhaled/Nebulised",
+          "indication": "Asthma, COPD acute",
+          "black_box": "Hypokalaemia with high doses"
+        },
+        {
+          "name": "Formoterol",
+          "class": "LABA",
+          "dose": "12 mcg BD inhaled",
+          "max_daily": "24 mcg",
+          "route": "Inhaled",
+          "indication": "Asthma (with ICS), COPD",
+          "black_box": "Monotherapy without ICS in asthma CI"
+        },
+        {
+          "name": "Salmeterol",
+          "class": "LABA",
+          "dose": "50 mcg BD inhaled",
+          "max_daily": "100 mcg",
+          "route": "Inhaled",
+          "indication": "Asthma (with ICS), COPD",
+          "black_box": "Same as formoterol"
+        },
+        {
+          "name": "Indacaterol",
+          "class": "LABA once-daily",
+          "dose": "150-300 mcg OD",
+          "max_daily": "300 mcg",
+          "route": "Inhaled",
+          "indication": "COPD maintenance",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Ipratropium",
+          "class": "Short-acting anticholinergic (SAMA)",
+          "dose": "20-40 mcg QDS inhaled; 250-500 mcg nebulised",
+          "max_daily": "480 mcg",
+          "route": "Inhaled",
+          "indication": "COPD, acute asthma adjunct",
+          "black_box": "Glaucoma if sprayed in eyes"
+        },
+        {
+          "name": "Tiotropium",
+          "class": "LAMA once-daily",
+          "dose": "18 mcg OD (HandiHaler); 5 mcg OD (Respimat)",
+          "max_daily": "18 mcg",
+          "route": "Inhaled",
+          "indication": "COPD",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Umeclidinium",
+          "class": "LAMA",
+          "dose": "62.5 mcg OD",
+          "max_daily": "62.5 mcg",
+          "route": "Inhaled",
+          "indication": "COPD",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Aclidinium",
+          "class": "LAMA BD",
+          "dose": "322 mcg BD",
+          "max_daily": "644 mcg",
+          "route": "Inhaled",
+          "indication": "COPD",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Beclomethasone (ICS)",
+          "class": "Inhaled corticosteroid",
+          "dose": "100-800 mcg BD",
+          "max_daily": "1600 mcg",
+          "route": "Inhaled",
+          "indication": "Asthma",
+          "black_box": "Adrenal suppression at high doses, growth in children"
+        },
+        {
+          "name": "Budesonide",
+          "class": "ICS",
+          "dose": "200-1600 mcg BD",
+          "max_daily": "3200 mcg",
+          "route": "Inhaled/Nebulised",
+          "indication": "Asthma, croup",
+          "black_box": "Adrenal suppression"
+        },
+        {
+          "name": "Fluticasone Propionate",
+          "class": "ICS",
+          "dose": "100-1000 mcg BD",
+          "max_daily": "2000 mcg",
+          "route": "Inhaled",
+          "indication": "Asthma",
+          "black_box": "Adrenal suppression"
+        },
+        {
+          "name": "Fluticasone Furoate",
+          "class": "ICS (once daily)",
+          "dose": "100-200 mcg OD",
+          "max_daily": "200 mcg",
+          "route": "Inhaled",
+          "indication": "Asthma, COPD",
+          "black_box": "Adrenal suppression"
+        },
+        {
+          "name": "Ciclesonide",
+          "class": "ICS (pro-drug)",
+          "dose": "160-640 mcg OD",
+          "max_daily": "640 mcg",
+          "route": "Inhaled",
+          "indication": "Asthma",
+          "black_box": "Candidiasis (less than others)"
+        },
+        {
+          "name": "Prednisolone",
+          "class": "Systemic corticosteroid",
+          "dose": "40mg OD 5-7 days (asthma); 30mg OD (COPD)",
+          "max_daily": "60mg acute",
+          "route": "PO",
+          "indication": "Asthma/COPD exacerbation",
+          "black_box": "Immunosuppression, adrenal suppression"
+        },
+        {
+          "name": "Montelukast",
+          "class": "Leukotriene receptor antagonist",
+          "dose": "10mg OD nocte",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "Mild asthma, allergic rhinitis",
+          "black_box": "Neuropsychiatric events"
+        },
+        {
+          "name": "Zileuton",
+          "class": "5-Lipoxygenase inhibitor",
+          "dose": "600mg QDS",
+          "max_daily": "2400mg",
+          "route": "PO",
+          "indication": "Asthma",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Theophylline",
+          "class": "Phosphodiesterase inhibitor",
+          "dose": "200-400mg BD SR",
+          "max_daily": "800mg",
+          "route": "PO/IV",
+          "indication": "COPD, asthma (3rd line)",
+          "black_box": "Narrow therapeutic index; arrhythmia, seizures at toxicity"
+        },
+        {
+          "name": "Aminophylline",
+          "class": "Theophylline prodrug",
+          "dose": "250mg IV over 20min",
+          "max_daily": "1000mg",
+          "route": "IV",
+          "indication": "Acute severe asthma",
+          "black_box": "Arrhythmia, seizures"
+        },
+        {
+          "name": "Magnesium Sulfate",
+          "class": "Bronchodilator (IV)",
+          "dose": "2g IV over 20min",
+          "max_daily": "2g single dose",
+          "route": "IV",
+          "indication": "Acute severe asthma not responding",
+          "black_box": "Hypermagnesaemia"
+        },
+        {
+          "name": "Omalizumab",
+          "class": "Anti-IgE monoclonal antibody",
+          "dose": "75-375mg SC Q2-4W (weight/IgE dependent)",
+          "max_daily": "Protocol",
+          "route": "SC",
+          "indication": "Severe allergic asthma",
+          "black_box": "Anaphylaxis"
+        },
+        {
+          "name": "Mepolizumab",
+          "class": "Anti-IL-5 monoclonal",
+          "dose": "100mg SC Q4W",
+          "max_daily": "100mg",
+          "route": "SC",
+          "indication": "Severe eosinophilic asthma, EGPA",
+          "black_box": "Herpes zoster"
+        },
+        {
+          "name": "Benralizumab",
+          "class": "Anti-IL-5R\u03b1 monoclonal",
+          "dose": "30mg SC Q4W x3, then Q8W",
+          "max_daily": "30mg",
+          "route": "SC",
+          "indication": "Severe eosinophilic asthma",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Dupilumab",
+          "class": "Anti-IL-4R\u03b1 monoclonal",
+          "dose": "300mg SC Q2W",
+          "max_daily": "300mg",
+          "route": "SC",
+          "indication": "Severe asthma (type-2), atopic dermatitis",
+          "black_box": "Eosinophilia (monitor)"
+        },
+        {
+          "name": "Tezepelumab",
+          "class": "Anti-TSLP monoclonal",
+          "dose": "210mg SC Q4W",
+          "max_daily": "210mg",
+          "route": "SC",
+          "indication": "Severe asthma (all types)",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Roflumilast",
+          "class": "PDE4 inhibitor",
+          "dose": "500 mcg OD",
+          "max_daily": "500 mcg",
+          "route": "PO",
+          "indication": "Severe COPD with chronic bronchitis",
+          "black_box": "Psychiatric events, weight loss"
+        },
+        {
+          "name": "N-Acetylcysteine",
+          "class": "Mucolytic/antioxidant",
+          "dose": "200mg TDS (mucolytic); 150mg/kg IV (paracetamol OD)",
+          "max_daily": "600mg (oral)",
+          "route": "PO/IV/Nebulised",
+          "indication": "COPD mucolysis, paracetamol overdose",
+          "black_box": "Anaphylactoid reactions IV"
+        },
+        {
+          "name": "Carbocisteine",
+          "class": "Mucolytic",
+          "dose": "750mg TDS initially",
+          "max_daily": "2250mg",
+          "route": "PO",
+          "indication": "COPD symptom relief",
+          "black_box": "GI irritation"
+        },
+        {
+          "name": "Erdosteine",
+          "class": "Mucolytic",
+          "dose": "300mg BD-TDS",
+          "max_daily": "900mg",
+          "route": "PO",
+          "indication": "COPD exacerbation prevention",
+          "black_box": "GI upset"
+        },
+        {
+          "name": "Dornase Alfa (DNase)",
+          "class": "Mucolytic enzyme",
+          "dose": "2.5mg OD-BD nebulised",
+          "max_daily": "5mg",
+          "route": "Nebulised",
+          "indication": "Cystic fibrosis",
+          "black_box": "Voice alteration, pharyngitis"
+        },
+        {
+          "name": "Ivacaftor",
+          "class": "CFTR potentiator",
+          "dose": "150mg BD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "CF with specific mutations (G551D)",
+          "black_box": "Hepatotoxicity, cataracts"
+        },
+        {
+          "name": "Lumacaftor/Ivacaftor",
+          "class": "CFTR corrector+potentiator",
+          "dose": "400/250mg BD",
+          "max_daily": "800/500mg",
+          "route": "PO",
+          "indication": "CF homozygous F508del",
+          "black_box": "Hepatotoxicity, respiratory events at start"
+        },
+        {
+          "name": "Elexacaftor/Tezacaftor/Ivacaftor",
+          "class": "Triple CFTR modulator",
+          "dose": "2 tabs AM + 1 tab PM",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "CF F508del (1 copy)",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Pirfenidone",
+          "class": "Anti-fibrotic",
+          "dose": "267mg TDS escalating to 801mg TDS",
+          "max_daily": "2403mg",
+          "route": "PO",
+          "indication": "Idiopathic pulmonary fibrosis",
+          "black_box": "Photosensitivity, hepatotoxicity"
+        },
+        {
+          "name": "Nintedanib",
+          "class": "Tyrosine kinase inhibitor anti-fibrotic",
+          "dose": "150mg BD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "IPF, SSc-ILD, progressive fibrosing ILD",
+          "black_box": "Hepatotoxicity, GI, teratogenicity"
+        },
+        {
+          "name": "Sildenafil",
+          "class": "PDE5 inhibitor",
+          "dose": "20mg TDS",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "PAH, Group 3 PH adjunct",
+          "black_box": "Nitrate CI"
+        },
+        {
+          "name": "Bosentan",
+          "class": "ERA",
+          "dose": "62.5-125mg BD",
+          "max_daily": "250mg",
+          "route": "PO",
+          "indication": "PAH",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "IV tPA (Alteplase) in PE",
+          "class": "Thrombolytic",
+          "dose": "100mg IV over 2hr",
+          "max_daily": "100mg",
+          "route": "IV",
+          "indication": "Massive PE with haemodynamic compromise",
+          "black_box": "Major haemorrhage, intracranial"
+        },
+        {
+          "name": "Unfractionated Heparin",
+          "class": "Anticoagulant",
+          "dose": "80 units/kg bolus; 18 units/kg/hr",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "PE, DVT",
+          "black_box": "HIT, haemorrhage"
+        },
+        {
+          "name": "Rivaroxaban",
+          "class": "Direct Xa inhibitor",
+          "dose": "15mg BD x3wks then 20mg OD",
+          "max_daily": "30mg initially",
+          "route": "PO",
+          "indication": "DVT/PE treatment",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Apixaban",
+          "class": "Direct Xa inhibitor",
+          "dose": "10mg BD x7days then 5mg BD",
+          "max_daily": "20mg initially",
+          "route": "PO",
+          "indication": "DVT/PE",
+          "black_box": "Haemorrhage"
+        },
+        {
+          "name": "Oxygen",
+          "class": "Medical gas",
+          "dose": "Titrate SpO2 94-98% (88-92% COPD)",
+          "max_daily": "N/A",
+          "route": "Inhaled",
+          "indication": "Hypoxia",
+          "black_box": "Hypercapnia in type-2 RF if uncontrolled"
+        },
+        {
+          "name": "Heliox",
+          "class": "Helium-oxygen mixture",
+          "dose": "70:30 helium:oxygen",
+          "max_daily": "N/A",
+          "route": "Inhaled",
+          "indication": "Upper airway obstruction, severe asthma",
+          "black_box": "Unstable patients (cannot use 100% O2)"
+        },
+        {
+          "name": "Nitric Oxide (inhaled)",
+          "class": "Pulmonary vasodilator",
+          "dose": "5-20 ppm inhaled",
+          "max_daily": "Titrate",
+          "route": "Inhaled",
+          "indication": "ARDS refractory hypoxia, PAH, persistent pulmonary HTN newborn",
+          "black_box": "Rebound hypoxia on withdrawal"
+        },
+        {
+          "name": "Dexamethasone",
+          "class": "Systemic corticosteroid",
+          "dose": "6mg OD (COVID-19 ARDS); 8-16mg for croup",
+          "max_daily": "40mg",
+          "route": "PO/IV",
+          "indication": "ARDS (COVID), croup, cerebral oedema",
+          "black_box": "Immunosuppression"
+        },
+        {
+          "name": "Azithromycin",
+          "class": "Macrolide antibiotic",
+          "dose": "500mg OD x3-5 days",
+          "max_daily": "500mg",
+          "route": "PO",
+          "indication": "CAP, COPD exacerbation, atypicals",
+          "black_box": "QT prolongation, hepatotoxicity"
+        },
+        {
+          "name": "Amoxicillin-Clavulanate",
+          "class": "Beta-lactam + inhibitor",
+          "dose": "625mg TDS or 1g BD",
+          "max_daily": "3g (625mg tabs)",
+          "route": "PO",
+          "indication": "CAP, COPD exacerbation",
+          "black_box": "Liver toxicity"
+        },
+        {
+          "name": "Moxifloxacin",
+          "class": "Fluoroquinolone",
+          "dose": "400mg OD",
+          "max_daily": "400mg",
+          "route": "PO/IV",
+          "indication": "CAP, non-response",
+          "black_box": "QT prolongation, tendonitis"
+        },
+        {
+          "name": "Piperacillin-Tazobactam",
+          "class": "Beta-lactam+inhibitor",
+          "dose": "4.5g TDS-QDS IV",
+          "max_daily": "18g",
+          "route": "IV",
+          "indication": "Hospital-acquired pneumonia, VAP",
+          "black_box": "Neurotoxicity at high doses"
+        },
+        {
+          "name": "Vancomycin",
+          "class": "Glycopeptide",
+          "dose": "25-30mg/kg/day divided Q8-12H IV (target AUC 400-600)",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "MRSA pneumonia, PVL Staph",
+          "black_box": "Red man syndrome, nephrotoxicity"
+        },
+        {
+          "name": "Linezolid",
+          "class": "Oxazolidinone",
+          "dose": "600mg BD IV/PO",
+          "max_daily": "1200mg",
+          "route": "IV/PO",
+          "indication": "MRSA pneumonia, VRE",
+          "black_box": "Serotonin syndrome, myelosuppression"
+        },
+        {
+          "name": "Cotrimoxazole",
+          "class": "Sulfonamide + trimethoprim",
+          "dose": "960mg BD (PJP treatment dose higher)",
+          "max_daily": "1920mg",
+          "route": "PO",
+          "indication": "PCP pneumonia, UTI",
+          "black_box": "Stevens-Johnson syndrome"
+        },
+        {
+          "name": "Pentamidine",
+          "class": "Antiprotozoal",
+          "dose": "4mg/kg/day IV (PCP) or 300mg/month nebulised (prophylaxis)",
+          "max_daily": "300mg",
+          "route": "IV/Nebulised",
+          "indication": "PCP in sulfa allergy",
+          "black_box": "Hypoglycaemia, nephrotoxicity, arrhythmia"
+        },
+        {
+          "name": "Rifampicin",
+          "class": "Rifamycin antibiotic",
+          "dose": "600mg OD (TB)",
+          "max_daily": "600mg",
+          "route": "PO",
+          "indication": "Tuberculosis",
+          "black_box": "Hepatotoxicity, drug interactions (potent inducer)"
+        },
+        {
+          "name": "Isoniazid",
+          "class": "Anti-TB",
+          "dose": "5mg/kg OD (max 300mg)",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "Tuberculosis",
+          "black_box": "Hepatotoxicity, peripheral neuropathy (give B6)"
+        },
+        {
+          "name": "Pyrazinamide",
+          "class": "Anti-TB",
+          "dose": "25mg/kg OD",
+          "max_daily": "2.5g",
+          "route": "PO",
+          "indication": "Tuberculosis (2-month phase)",
+          "black_box": "Hepatotoxicity, hyperuricaemia"
+        },
+        {
+          "name": "Ethambutol",
+          "class": "Anti-TB",
+          "dose": "15mg/kg OD",
+          "max_daily": "1.6g",
+          "route": "PO",
+          "indication": "Tuberculosis",
+          "black_box": "Optic neuritis (dose/duration dependent)"
+        },
+        {
+          "name": "Bedaquiline",
+          "class": "ATP synthase inhibitor (anti-TB)",
+          "dose": "400mg OD x2wks then 200mg TIW",
+          "max_daily": "400mg (initial)",
+          "route": "PO",
+          "indication": "MDR-TB",
+          "black_box": "QT prolongation, hepatotoxicity"
+        },
+        {
+          "name": "Capreomycin",
+          "class": "Anti-TB injectable",
+          "dose": "1g IM/IV OD",
+          "max_daily": "1g",
+          "route": "IM",
+          "indication": "MDR-TB",
+          "black_box": "Nephrotoxicity, ototoxicity"
+        },
+        {
+          "name": "Itraconazole",
+          "class": "Triazole antifungal",
+          "dose": "200mg BD",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "Aspergillus, ABPA, blastomycosis",
+          "black_box": "HF (negative inotrope), drug interactions"
+        },
+        {
+          "name": "Voriconazole",
+          "class": "Triazole antifungal",
+          "dose": "6mg/kg BD load, 4mg/kg BD IV; 200-300mg BD PO",
+          "max_daily": "800mg",
+          "route": "PO/IV",
+          "indication": "Invasive aspergillosis",
+          "black_box": "Hepatotoxicity, visual disturbances"
+        },
+        {
+          "name": "Posaconazole",
+          "class": "Triazole antifungal",
+          "dose": "300mg BD day 1, then 300mg OD",
+          "max_daily": "600mg loading",
+          "route": "PO/IV",
+          "indication": "Invasive aspergillosis prophylaxis/treatment",
+          "black_box": "QT prolongation"
+        },
+        {
+          "name": "Isavuconazonium",
+          "class": "Triazole antifungal",
+          "dose": "372mg TDS x6 doses, then 372mg OD",
+          "max_daily": "372mg",
+          "route": "PO/IV",
+          "indication": "Invasive aspergillosis, mucormycosis",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Caspofungin",
+          "class": "Echinocandin antifungal",
+          "dose": "70mg loading, 50mg OD",
+          "max_daily": "70mg",
+          "route": "IV",
+          "indication": "Invasive candidiasis, aspergillosis (salvage)",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Amphotericin B (liposomal)",
+          "class": "Polyene antifungal",
+          "dose": "3-5mg/kg/day",
+          "max_daily": "5mg/kg",
+          "route": "IV",
+          "indication": "Invasive fungal infection, cryptococcal meningitis",
+          "black_box": "Nephrotoxicity (reduced in liposomal), infusion reactions"
+        },
+        {
+          "name": "Fluconazole",
+          "class": "Triazole antifungal",
+          "dose": "200-800mg OD",
+          "max_daily": "800mg",
+          "route": "PO/IV",
+          "indication": "Candidiasis, cryptococcal meningitis maintenance",
+          "black_box": "QT prolongation, hepatotoxicity"
+        },
+        {
+          "name": "Hydroxychloroquine",
+          "class": "Antimalarial/anti-inflammatory",
+          "dose": "200-400mg OD",
+          "max_daily": "400mg (5mg/kg lean wt)",
+          "route": "PO",
+          "indication": "Sarcoidosis, SLE-associated pulmonary disease",
+          "black_box": "Retinopathy (cumulative dose)"
+        },
+        {
+          "name": "Cyclophosphamide",
+          "class": "Alkylating agent/immunosuppressant",
+          "dose": "2mg/kg/day PO; pulse IV protocols",
+          "max_daily": "Protocol",
+          "route": "PO/IV",
+          "indication": "Vasculitis-related lung disease, ILD",
+          "black_box": "Haemorrhagic cystitis, myelosuppression, bladder cancer"
+        },
+        {
+          "name": "Mycophenolate Mofetil",
+          "class": "Immunosuppressant",
+          "dose": "1-1.5g BD",
+          "max_daily": "3g",
+          "route": "PO",
+          "indication": "SSc-ILD, other ILD",
+          "black_box": "Teratogenicity, GI toxicity, myelosuppression"
+        },
+        {
+          "name": "Rituximab",
+          "class": "Anti-CD20 monoclonal",
+          "dose": "375mg/m\u00b2 IV Q4W x4; or 1000mg Q2W x2",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "GPA, MPA, ILD",
+          "black_box": "PML (JC virus), infusion reactions, HBV reactivation"
+        },
+        {
+          "name": "Azathioprine",
+          "class": "Purine antagonist",
+          "dose": "1-3mg/kg OD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "ILD maintenance, vasculitis",
+          "black_box": "Myelosuppression, hepatotoxicity (TPMT testing)"
+        },
+        {
+          "name": "Methylprednisolone",
+          "class": "Systemic corticosteroid",
+          "dose": "500-1000mg IV pulse",
+          "max_daily": "1000mg",
+          "route": "IV",
+          "indication": "Acute exacerbation IPF, DAH",
+          "black_box": "Infection, hyperglycaemia"
+        },
+        {
+          "name": "Nintedanib",
+          "class": "Tyrosine kinase inhibitor",
+          "dose": "150mg BD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "IPF, SSc-ILD",
+          "black_box": "Hepatotoxicity, GI perforation"
+        },
+        {
+          "name": "Bronchodilator MDI Spacer",
+          "class": "Device dependent",
+          "dose": "Per drug",
+          "max_daily": "Per drug",
+          "route": "Inhaled",
+          "indication": "Asthma/COPD delivery optimisation",
+          "black_box": "None"
+        },
+        {
+          "name": "Mupirocin",
+          "class": "Topical antibiotic",
+          "dose": "Apply TDS x5 days (nasal)",
+          "max_daily": "N/A topical",
+          "route": "Topical",
+          "indication": "Staph aureus decolonisation (MRSA)",
+          "black_box": "Resistance with overuse"
+        },
+        {
+          "name": "Colistin",
+          "class": "Polymyxin",
+          "dose": "3-9 MU/day divided Q8H",
+          "max_daily": "9 MU",
+          "route": "IV/Nebulised",
+          "indication": "MDR Gram-negative pneumonia, CF",
+          "black_box": "Nephrotoxicity, neurotoxicity"
+        },
+        {
+          "name": "Tobramycin",
+          "class": "Aminoglycoside",
+          "dose": "300mg BD nebulised (CF alternating months)",
+          "max_daily": "300mg nebulised",
+          "route": "Nebulised/IV",
+          "indication": "Pseudomonas in CF",
+          "black_box": "Nephrotoxicity, ototoxicity"
+        },
+        {
+          "name": "Aztreonam (nebulised)",
+          "class": "Monobactam",
+          "dose": "75mg TDS nebulised",
+          "max_daily": "225mg",
+          "route": "Nebulised",
+          "indication": "CF chronic Pseudomonas",
+          "black_box": "Bronchospasm"
+        },
+        {
+          "name": "Mannitol (inhaled)",
+          "class": "Osmotic mucolytic",
+          "dose": "400mg BD inhaled",
+          "max_daily": "800mg",
+          "route": "Inhaled",
+          "indication": "CF mucociliary clearance",
+          "black_box": "Bronchospasm (fitness test required)"
+        },
+        {
+          "name": "Ivacaftor",
+          "class": "CFTR potentiator",
+          "dose": "150mg BD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "CF gating mutations",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Treprostinil (inhaled)",
+          "class": "Prostacyclin analogue",
+          "dose": "54 mcg (3 breaths) QDS",
+          "max_daily": "216 mcg",
+          "route": "Inhaled",
+          "indication": "PAH",
+          "black_box": "Cough, headache"
+        },
+        {
+          "name": "Iloprost (inhaled)",
+          "class": "Prostacyclin analogue",
+          "dose": "2.5-5 mcg 6-9x daily",
+          "max_daily": "45 mcg",
+          "route": "Inhaled",
+          "indication": "PAH",
+          "black_box": "Syncope"
+        },
+        {
+          "name": "Prednisone",
+          "class": "Corticosteroid",
+          "dose": "40-60mg OD",
+          "max_daily": "80mg",
+          "route": "PO",
+          "indication": "Sarcoidosis, eosinophilic pneumonia, organising pneumonia",
+          "black_box": "Adrenal suppression, diabetes, osteoporosis"
+        },
+        {
+          "name": "Lanreotide",
+          "class": "Somatostatin analogue",
+          "dose": "60-120mg SC Q4W",
+          "max_daily": "120mg",
+          "route": "SC",
+          "indication": "Chylothorax, LAM-related lymphatic dysfunction",
+          "black_box": "Gallstones, bradycardia"
+        },
+        {
+          "name": "Sirolimus",
+          "class": "mTOR inhibitor",
+          "dose": "2mg OD (target trough 5-15 ng/mL)",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "Lymphangioleiomyomatosis (LAM)",
+          "black_box": "Pulmonary toxicity, impaired wound healing"
+        },
+        {
+          "name": "Hydroxycarbamide",
+          "class": "Cytoreductive",
+          "dose": "500-1500mg OD",
+          "max_daily": "2500mg",
+          "route": "PO",
+          "indication": "Polycythaemia vera affecting pulmonary vasculature",
+          "black_box": "Myelosuppression, skin changes"
+        },
+        {
+          "name": "Doxapram",
+          "class": "Respiratory stimulant",
+          "dose": "1-4mg/min IV",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "COPD with hypercapnia (rarely used)",
+          "black_box": "CNS excitation, tachycardia"
+        },
+        {
+          "name": "Acetazolamide",
+          "class": "Carbonic anhydrase inhibitor",
+          "dose": "250mg BD-TDS",
+          "max_daily": "1g",
+          "route": "PO/IV",
+          "indication": "Altitude sickness, central sleep apnoea, metabolic alkalosis",
+          "black_box": "Sulfa allergy, electrolyte disturbance"
+        },
+        {
+          "name": "Epoprostenol",
+          "class": "Prostacyclin",
+          "dose": "2-40 ng/kg/min IV (titrate)",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "PAH (WHO FC III-IV), ARDS (bridging)",
+          "black_box": "Rebound PH on abrupt stoppage"
+        },
+        {
+          "name": "Maraviroc",
+          "class": "CCR5 antagonist (antiviral)",
+          "dose": "150-600mg BD",
+          "max_daily": "1200mg",
+          "route": "PO",
+          "indication": "HIV-associated pulmonary complications (rarely)",
+          "black_box": "Hepatotoxicity, CV events"
+        },
+        {
+          "name": "Trimethoprim",
+          "class": "Antibiotic",
+          "dose": "200mg BD",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "UTI, PCP prophylaxis component",
+          "black_box": "Hyperkalaemia, folate antagonism"
+        }
+      ]
+    },
+    "infectious_disease": {
+      "count": 15,
+      "drugs": [
+        {
+          "name": "Amoxicillin",
+          "class": "Penicillin",
+          "dose": "250-500mg TDS",
+          "max_daily": "3000mg",
+          "route": "PO",
+          "indication": "Respiratory/UTI infections",
+          "black_box": "Hypersensitivity"
+        },
+        {
+          "name": "Ceftriaxone",
+          "class": "3rd gen cephalosporin",
+          "dose": "1-2g OD",
+          "max_daily": "4000mg",
+          "route": "IV/IM",
+          "indication": "Meningitis, sepsis, pneumonia",
+          "black_box": "Biliary sludging"
+        },
+        {
+          "name": "Vancomycin",
+          "class": "Glycopeptide",
+          "dose": "15-20mg/kg BD (titrate to trough)",
+          "max_daily": "4000mg",
+          "route": "IV/PO",
+          "indication": "MRSA, C. difficile (PO)",
+          "black_box": "Nephrotoxicity, Ototoxicity"
+        },
+        {
+          "name": "Meropenem",
+          "class": "Carbapenem",
+          "dose": "500mg-2g TDS",
+          "max_daily": "6000mg",
+          "route": "IV",
+          "indication": "Intra-abdominal infection, sepsis",
+          "black_box": "Seizure risk"
+        },
+        {
+          "name": "Ciprofloxacin",
+          "class": "Fluoroquinolone",
+          "dose": "250-750mg BD",
+          "max_daily": "1500mg",
+          "route": "PO/IV",
+          "indication": "UTI, prostatitis, anthrax",
+          "black_box": "Tendon rupture, aortic aneurysm"
+        },
+        {
+          "name": "Clindamycin",
+          "class": "Lincosamide",
+          "dose": "150-450mg QDS",
+          "max_daily": "1800mg",
+          "route": "PO/IV",
+          "indication": "Anaerobic infections, skin/soft tissue",
+          "black_box": "C. difficile-associated diarrhea"
+        },
+        {
+          "name": "Metronidazole",
+          "class": "Nitroimidazole",
+          "dose": "400-500mg TDS",
+          "max_daily": "2000mg",
+          "route": "PO/IV",
+          "indication": "Anaerobes, protozoa, C. difficile",
+          "black_box": "Disulfiram-like reaction"
+        },
+        {
+          "name": "Azithromycin",
+          "class": "Macrolide",
+          "dose": "500mg OD for 3 days",
+          "max_daily": "500mg",
+          "route": "PO/IV",
+          "indication": "Atypical pneumonia, STI",
+          "black_box": "QT prolongation"
+        },
+        {
+          "name": "Doxycycline",
+          "class": "Tetracycline",
+          "dose": "100mg OD/BD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Atypical pneumonia, acne, Lyme",
+          "black_box": "Oesophagitis, photosensitivity"
+        },
+        {
+          "name": "Piperacillin/Tazobactam",
+          "class": "Penicillin + Beta-lactamase inhibitor",
+          "dose": "4.5g TDS/QDS",
+          "max_daily": "18g",
+          "route": "IV",
+          "indication": "HAP, complicated IVI",
+          "black_box": "Hypersensitivity"
+        },
+        {
+          "name": "Nitrofurantoin",
+          "class": "Nitrofuran",
+          "dose": "50-100mg QDS",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "Uncomplicated UTI",
+          "black_box": "Pulmonary fibrosis (long term)"
+        },
+        {
+          "name": "Trimethoprim/Sulfamethoxazole",
+          "class": "Sulfa antibiotic",
+          "dose": "960mg BD (standard)",
+          "max_daily": "variable",
+          "route": "PO/IV",
+          "indication": "UTI, PCP pneumonia",
+          "black_box": "Stevens-Johnson Syndrome"
+        },
+        {
+          "name": "Gentamicin",
+          "class": "Aminoglycoside",
+          "dose": "5-7mg/kg OD (titrate)",
+          "max_daily": "variable",
+          "route": "IV",
+          "indication": "Serious gram-negative infections",
+          "black_box": "Nephrotoxicity, Ototoxicity"
+        },
+        {
+          "name": "Fluconazole",
+          "class": "Antifungal",
+          "dose": "50-400mg OD",
+          "max_daily": "800mg",
+          "route": "PO/IV",
+          "indication": "Candidiasis, cryptococcal meningitis",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Oseltamivir",
+          "class": "Antiviral",
+          "dose": "75mg BD",
+          "max_daily": "150mg",
+          "route": "PO",
+          "indication": "Influenza",
+          "black_box": "Neuropsychiatric events (rare)"
+        }
+      ]
+    },
+    "neurology": {
+      "count": 10,
+      "drugs": [
+        {
+          "name": "Levetiracetam",
+          "class": "Anticonvulsant",
+          "dose": "500-1500mg BD",
+          "max_daily": "3000mg",
+          "route": "PO/IV",
+          "indication": "Epilepsy",
+          "black_box": "Suicidal ideation, irritability"
+        },
+        {
+          "name": "Phenytoin",
+          "class": "Anticonvulsant",
+          "dose": "300-400mg OD (titrate to level)",
+          "max_daily": "600mg",
+          "route": "PO/IV",
+          "indication": "Epilepsy, status epilepticus",
+          "black_box": "SJS, narrow therapeutic index"
+        },
+        {
+          "name": "Sodium Valproate",
+          "class": "Anticonvulsant/Mood stabiliser",
+          "dose": "600-2000mg daily",
+          "max_daily": "2500mg",
+          "route": "PO/IV",
+          "indication": "Epilepsy, Bipolar",
+          "black_box": "Hepatotoxicity, Teratogenicity (Pregnancy CI)"
+        },
+        {
+          "name": "Carbamazepine",
+          "class": "Anticonvulsant",
+          "dose": "100-600mg BD",
+          "max_daily": "1200mg",
+          "route": "PO",
+          "indication": "Epilepsy, Trigeminal neuralgia",
+          "black_box": "SJS (HLA-B*1502), Agranulocytosis"
+        },
+        {
+          "name": "Lamotrigine",
+          "class": "Anticonvulsant",
+          "dose": "25-200mg daily",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "Epilepsy, Bipolar",
+          "black_box": "Serious skin rashes (SJS)"
+        },
+        {
+          "name": "Sumatriptan",
+          "class": "5-HT1 receptor agonist",
+          "dose": "50-100mg PO; 6mg SC",
+          "max_daily": "300mg (PO)",
+          "route": "PO/SC/Nasal",
+          "indication": "Acute Migraine",
+          "black_box": "Ischaemic heart disease CI"
+        },
+        {
+          "name": "Donepezil",
+          "class": "Acetylcholinesterase inhibitor",
+          "dose": "5-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "Alzheimer's",
+          "black_box": "Bradycardia"
+        },
+        {
+          "name": "Levodopa/Carbidopa",
+          "class": "Dopaminergic",
+          "dose": "100/25mg TDS",
+          "max_daily": "Variable",
+          "route": "PO",
+          "indication": "Parkinson's",
+          "black_box": "Dyskinesia"
+        },
+        {
+          "name": "Gabapentin",
+          "class": "GABA analogue",
+          "dose": "300-1200mg TDS",
+          "max_daily": "3600mg",
+          "route": "PO",
+          "indication": "Neuropathic pain, Epilepsy",
+          "black_box": "Respiratory depression with opioids"
+        },
+        {
+          "name": "Pregabalin",
+          "class": "GABA analogue",
+          "dose": "75-300mg BD",
+          "max_daily": "600mg",
+          "route": "PO",
+          "indication": "Neuropathic pain, GAD",
+          "black_box": "Abuse potential"
+        }
+      ]
+    },
+    "nephrology": {
+      "count": 103,
+      "drugs": [
+        {
+          "name": "Furosemide",
+          "class": "Loop diuretic",
+          "dose": "20-500mg OD/BD IV/PO",
+          "max_daily": "4000mg in refractory AKI",
+          "route": "PO/IV",
+          "indication": "AKI oliguria, CKD oedema, hyperkalaemia",
+          "black_box": "Ototoxicity"
+        },
+        {
+          "name": "Bumetanide",
+          "class": "Loop diuretic",
+          "dose": "0.5-4mg OD",
+          "max_daily": "10mg",
+          "route": "PO/IV",
+          "indication": "Diuresis resistant to furosemide",
+          "black_box": "Ototoxicity"
+        },
+        {
+          "name": "Metolazone",
+          "class": "Thiazide-like diuretic",
+          "dose": "2.5-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "Synergistic with loop diuretic in resistant oedema",
+          "black_box": "Electrolyte disturbance"
+        },
+        {
+          "name": "Spironolactone",
+          "class": "Aldosterone antagonist",
+          "dose": "25-100mg OD",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "CKD with proteinuria, hyperaldosteronism, HF",
+          "black_box": "Hyperkalaemia - avoid if eGFR<30"
+        },
+        {
+          "name": "Eplerenone",
+          "class": "Selective aldosterone antagonist",
+          "dose": "25-50mg OD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "CKD4 with hypertension (selected patients)",
+          "black_box": "Hyperkalaemia"
+        },
+        {
+          "name": "Finerenone",
+          "class": "Non-steroidal MRA",
+          "dose": "10-20mg OD",
+          "max_daily": "20mg",
+          "route": "PO",
+          "indication": "CKD with T2DM and albuminuria",
+          "black_box": "Hyperkalaemia"
+        },
+        {
+          "name": "Empagliflozin",
+          "class": "SGLT2 inhibitor",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "CKD (eGFR\u226520), T2DM, HF",
+          "black_box": "DKA, genital infections, volume depletion"
+        },
+        {
+          "name": "Dapagliflozin",
+          "class": "SGLT2 inhibitor",
+          "dose": "10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "CKD (eGFR\u226525), HFrEF/HFpEF",
+          "black_box": "DKA"
+        },
+        {
+          "name": "Lisinopril",
+          "class": "ACE inhibitor",
+          "dose": "2.5-40mg OD",
+          "max_daily": "40mg",
+          "route": "PO",
+          "indication": "CKD proteinuria reduction, HTN, HF",
+          "black_box": "Hyperkalaemia, AKI in renovascular disease, pregnancy CI"
+        },
+        {
+          "name": "Ramipril",
+          "class": "ACE inhibitor",
+          "dose": "1.25-10mg OD",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "CKD nephroprotection",
+          "black_box": "As lisinopril"
+        },
+        {
+          "name": "Losartan",
+          "class": "ARB",
+          "dose": "25-100mg OD",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "CKD in T2DM, HTN",
+          "black_box": "Pregnancy CI, hyperkalaemia"
+        },
+        {
+          "name": "Irbesartan",
+          "class": "ARB",
+          "dose": "150-300mg OD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "Nephropathy in T2DM",
+          "black_box": "Pregnancy CI"
+        },
+        {
+          "name": "Bicarbonate (Sodium Bicarbonate)",
+          "class": "Alkali replacement",
+          "dose": "1-3mmol/kg/day PO; 1.26% IV infusion",
+          "max_daily": "Protocol",
+          "route": "PO/IV",
+          "indication": "Metabolic acidosis in CKD, hyperkalaemia adjunct",
+          "black_box": "Fluid overload, paradoxical CNS acidosis"
+        },
+        {
+          "name": "Calcium Resonium",
+          "class": "Cation exchange resin",
+          "dose": "15g TDS/QDS PO",
+          "max_daily": "60g",
+          "route": "PO/Enema",
+          "indication": "Hyperkalaemia",
+          "black_box": "Intestinal necrosis (especially with sorbitol), constipation"
+        },
+        {
+          "name": "Patiromer",
+          "class": "Non-absorbed cation exchanger",
+          "dose": "8.4g OD",
+          "max_daily": "25.2g",
+          "route": "PO",
+          "indication": "Hyperkalaemia in CKD/HF",
+          "black_box": "GI adverse effects, do not take with other drugs"
+        },
+        {
+          "name": "Sodium Zirconium Cyclosilicate",
+          "class": "Selective potassium binder",
+          "dose": "10g TDS x48hr then 5-10mg OD",
+          "max_daily": "30g initial",
+          "route": "PO",
+          "indication": "Hyperkalaemia",
+          "black_box": "Oedema (sodium content)"
+        },
+        {
+          "name": "Calcium Gluconate",
+          "class": "Membrane stabiliser",
+          "dose": "10mL 10% IV over 2-5min, repeat",
+          "max_daily": "30mL",
+          "route": "IV",
+          "indication": "Hyperkalaemia (cardiac protection)",
+          "black_box": "Tissue necrosis if extravasates"
+        },
+        {
+          "name": "Insulin + Glucose (HyperK)",
+          "class": "Glucose-insulin shift",
+          "dose": "10 units Actrapid + 50mL 50% dextrose IV",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Hyperkalaemia (acute shift)",
+          "black_box": "Hypoglycaemia"
+        },
+        {
+          "name": "Salbutamol (IV/Neb for HyperK)",
+          "class": "Beta-2 agonist",
+          "dose": "10-20mg nebulised",
+          "max_daily": "20mg per treatment",
+          "route": "Nebulised",
+          "indication": "Hyperkalaemia (adjunct)",
+          "black_box": "Tachycardia, hypokalaemia"
+        },
+        {
+          "name": "Sevelamer",
+          "class": "Non-calcium phosphate binder",
+          "dose": "800-1600mg TDS with meals",
+          "max_daily": "4800mg",
+          "route": "PO",
+          "indication": "Hyperphosphataemia in CKD",
+          "black_box": "GI obstruction"
+        },
+        {
+          "name": "Calcium Carbonate",
+          "class": "Calcium-containing phosphate binder",
+          "dose": "500-1500mg TDS with meals",
+          "max_daily": "9g",
+          "route": "PO",
+          "indication": "Hyperphosphataemia in CKD",
+          "black_box": "Hypercalcaemia"
+        },
+        {
+          "name": "Lanthanum Carbonate",
+          "class": "Non-calcium phosphate binder",
+          "dose": "500-1000mg TDS chewed with meals",
+          "max_daily": "3000mg",
+          "route": "PO",
+          "indication": "Hyperphosphataemia in CKD",
+          "black_box": "GI effects"
+        },
+        {
+          "name": "Sucroferric Oxyhydroxide",
+          "class": "Iron-based phosphate binder",
+          "dose": "500mg TDS with meals",
+          "max_daily": "3000mg",
+          "route": "PO",
+          "indication": "Hyperphosphataemia in dialysis patients",
+          "black_box": "Dark stools"
+        },
+        {
+          "name": "Alfacalcidol",
+          "class": "Vitamin D analogue (1-alpha)",
+          "dose": "0.25-1 mcg OD",
+          "max_daily": "2 mcg",
+          "route": "PO/IV",
+          "indication": "Renal osteodystrophy, secondary hyperparathyroidism",
+          "black_box": "Hypercalcaemia"
+        },
+        {
+          "name": "Calcitriol",
+          "class": "Active Vit D",
+          "dose": "0.25-0.5 mcg OD",
+          "max_daily": "0.5 mcg",
+          "route": "PO",
+          "indication": "Secondary hyperparathyroidism in CKD",
+          "black_box": "Hypercalcaemia"
+        },
+        {
+          "name": "Paricalcitol",
+          "class": "Selective Vit D receptor activator",
+          "dose": "1mcg OD or 2-3mcg TIW IV (dialysis)",
+          "max_daily": "3 mcg/dose",
+          "route": "PO/IV",
+          "indication": "Secondary hyperparathyroidism, dialysis patients",
+          "black_box": "Hypercalcaemia (less risk than calcitriol)"
+        },
+        {
+          "name": "Cinacalcet",
+          "class": "Calcimimetic",
+          "dose": "30-180mg OD",
+          "max_daily": "180mg",
+          "route": "PO",
+          "indication": "Secondary hyperparathyroidism in dialysis",
+          "black_box": "Hypocalcaemia, nausea"
+        },
+        {
+          "name": "Darbepoetin Alfa",
+          "class": "Erythropoiesis-stimulating agent",
+          "dose": "0.45 mcg/kg SC/IV Q1-4W",
+          "max_daily": "Protocol",
+          "route": "SC/IV",
+          "indication": "Anaemia of CKD",
+          "black_box": "Hypertension, thrombosis, PRCA"
+        },
+        {
+          "name": "Epoetin Alfa/Beta",
+          "class": "Erythropoiesis-stimulating agent",
+          "dose": "50-300 units/kg TIW SC/IV",
+          "max_daily": "Protocol",
+          "route": "SC/IV",
+          "indication": "Anaemia of CKD",
+          "black_box": "Hypertension, stroke, PRCA"
+        },
+        {
+          "name": "Methoxy Polyethylene Glycol-Epoetin Beta",
+          "class": "Continuous ESA",
+          "dose": "0.6 mcg/kg Q2W or 1.2 mcg/kg/month",
+          "max_daily": "Protocol",
+          "route": "SC/IV",
+          "indication": "Anaemia of CKD",
+          "black_box": "Hypertension, thrombosis"
+        },
+        {
+          "name": "Ferrous Sulfate",
+          "class": "Oral iron",
+          "dose": "200mg TDS",
+          "max_daily": "600mg",
+          "route": "PO",
+          "indication": "Iron deficiency anaemia in CKD",
+          "black_box": "GI side effects; poor absorption in CKD"
+        },
+        {
+          "name": "Iron Sucrose IV",
+          "class": "IV iron",
+          "dose": "100-200mg IV per session",
+          "max_daily": "200mg/session",
+          "route": "IV",
+          "indication": "Iron deficiency in dialysis",
+          "black_box": "Hypersensitivity"
+        },
+        {
+          "name": "Ferric Carboxymaltose",
+          "class": "IV iron",
+          "dose": "500-1000mg IV single infusion",
+          "max_daily": "1000mg",
+          "route": "IV",
+          "indication": "Iron deficiency CKD/anaemia",
+          "black_box": "Hypophosphataemia, hypersensitivity"
+        },
+        {
+          "name": "Ferric Derisomaltose",
+          "class": "IV iron",
+          "dose": "Up to 20mg/kg single dose",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Iron deficiency",
+          "black_box": "Hypersensitivity"
+        },
+        {
+          "name": "Tolvaptan",
+          "class": "V2 antagonist aquaretic",
+          "dose": "15-60mg OD",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "Autosomal dominant PKD (slows progression), hyponatraemia",
+          "black_box": "Hepatotoxicity >30 days, hypernatraemia"
+        },
+        {
+          "name": "Roxadustat",
+          "class": "HIF-PHI",
+          "dose": "70-100mg TIW",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "Anaemia of CKD (dialysis and non-dialysis)",
+          "black_box": "CV events, thrombosis"
+        },
+        {
+          "name": "Daprodustat",
+          "class": "HIF-PHI",
+          "dose": "4-24mg OD",
+          "max_daily": "24mg",
+          "route": "PO",
+          "indication": "Anaemia of CKD",
+          "black_box": "CV events, hypertension"
+        },
+        {
+          "name": "Tacrolimus",
+          "class": "Calcineurin inhibitor",
+          "dose": "Target trough 5-12 ng/mL (transplant)",
+          "max_daily": "Protocol",
+          "route": "PO/IV",
+          "indication": "Renal transplant immunosuppression",
+          "black_box": "Nephrotoxicity, PTDM, neurotoxicity"
+        },
+        {
+          "name": "Ciclosporin",
+          "class": "Calcineurin inhibitor",
+          "dose": "Target trough 100-200 ng/mL",
+          "max_daily": "Protocol",
+          "route": "PO/IV",
+          "indication": "Renal transplant, nephrotic syndrome",
+          "black_box": "Nephrotoxicity, hypertension, gingival hyperplasia"
+        },
+        {
+          "name": "Mycophenolate Mofetil",
+          "class": "Antiproliferative immunosuppressant",
+          "dose": "500-1500mg BD",
+          "max_daily": "3g",
+          "route": "PO",
+          "indication": "Renal transplant",
+          "black_box": "Teratogenicity, myelosuppression, GI"
+        },
+        {
+          "name": "Azathioprine",
+          "class": "Antiproliferative",
+          "dose": "1-3mg/kg OD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Renal transplant (older regimens), IgA nephropathy",
+          "black_box": "Myelosuppression, TPMT check"
+        },
+        {
+          "name": "Everolimus",
+          "class": "mTOR inhibitor",
+          "dose": "1.5mg BD (target 3-8 ng/mL)",
+          "max_daily": "3mg",
+          "route": "PO",
+          "indication": "Renal transplant, TSC-related AML",
+          "black_box": "Impaired wound healing, pneumonitis, dyslipidaemia"
+        },
+        {
+          "name": "Sirolimus",
+          "class": "mTOR inhibitor",
+          "dose": "Target trough 4-12 ng/mL",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "Renal transplant (CNI sparing), PKD",
+          "black_box": "Hyperlipidaemia, impaired wound healing, pulmonary toxicity"
+        },
+        {
+          "name": "Methylprednisolone",
+          "class": "Corticosteroid pulse",
+          "dose": "500-1000mg IV daily x3 days (acute rejection/IgA nephropathy)",
+          "max_daily": "1g",
+          "route": "IV",
+          "indication": "Acute rejection, rapidly progressive GN",
+          "black_box": "Infection, hyperglycaemia"
+        },
+        {
+          "name": "Prednisolone",
+          "class": "Corticosteroid",
+          "dose": "1mg/kg OD (nephrotic syndrome induction)",
+          "max_daily": "60-80mg",
+          "route": "PO",
+          "indication": "Nephrotic syndrome (minimal change, FSGS), vasculitis",
+          "black_box": "Osteoporosis, Cushing's, infection"
+        },
+        {
+          "name": "Cyclophosphamide",
+          "class": "Alkylating agent",
+          "dose": "2mg/kg/day PO or IV pulse 500-1000mg/m\u00b2",
+          "max_daily": "Protocol",
+          "route": "PO/IV",
+          "indication": "Lupus nephritis, ANCA vasculitis, rapidly progressive GN",
+          "black_box": "Haemorrhagic cystitis (give MESNA), myelosuppression"
+        },
+        {
+          "name": "Rituximab",
+          "class": "Anti-CD20 monoclonal",
+          "dose": "375mg/m\u00b2 IV QW x4; or 1000mg Q2W x2",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "ANCA vasculitis, IgA nephropathy, nephrotic syndrome",
+          "black_box": "PML, HBV reactivation, infusion reactions"
+        },
+        {
+          "name": "Belimumab",
+          "class": "Anti-BLyS monoclonal",
+          "dose": "10mg/kg IV Q2W x3, then Q4W",
+          "max_daily": "Protocol",
+          "route": "IV/SC",
+          "indication": "Lupus nephritis",
+          "black_box": "Infection, depression, PML"
+        },
+        {
+          "name": "Voclosporin",
+          "class": "Novel calcineurin inhibitor",
+          "dose": "23.7mg BD (with MMF + low-dose steroids)",
+          "max_daily": "47.4mg",
+          "route": "PO",
+          "indication": "Lupus nephritis",
+          "black_box": "Nephrotoxicity, hypertension"
+        },
+        {
+          "name": "Avacopan",
+          "class": "C5a receptor inhibitor",
+          "dose": "30mg BD",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "ANCA vasculitis (as corticosteroid replacement)",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Allopurinol",
+          "class": "Xanthine oxidase inhibitor",
+          "dose": "100-300mg OD (adjust in CKD)",
+          "max_daily": "900mg",
+          "route": "PO",
+          "indication": "Hyperuricaemia, gout, urate nephropathy",
+          "black_box": "SJS/TEN (check HLA-B*5801 in high-risk populations)"
+        },
+        {
+          "name": "Febuxostat",
+          "class": "Xanthine oxidase inhibitor",
+          "dose": "80-120mg OD",
+          "max_daily": "120mg",
+          "route": "PO",
+          "indication": "Gout when allopurinol intolerant",
+          "black_box": "CV events (use with caution in CVD)"
+        },
+        {
+          "name": "Rasburicase",
+          "class": "Recombinant uricase",
+          "dose": "0.2mg/kg OD x5-7 days",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Tumour lysis syndrome prevention/treatment",
+          "black_box": "Haemolysis (G6PD deficiency CI)"
+        },
+        {
+          "name": "Sodium Bicarbonate (urine alkalisation)",
+          "class": "Urinary alkaliniser",
+          "dose": "1mEq/kg/day",
+          "max_daily": "Protocol",
+          "route": "IV/PO",
+          "indication": "Urate nephropathy prevention",
+          "black_box": "Metabolic alkalosis, volume overload"
+        },
+        {
+          "name": "Midodrine",
+          "class": "Alpha-1 agonist",
+          "dose": "2.5-10mg TDS (not within 4hr bedtime)",
+          "max_daily": "30mg",
+          "route": "PO",
+          "indication": "Hepatorenal syndrome, orthostatic hypotension",
+          "black_box": "Supine hypertension"
+        },
+        {
+          "name": "Terlipressin",
+          "class": "Vasopressin analogue",
+          "dose": "0.5-2mg IV Q4-6H",
+          "max_daily": "12mg",
+          "route": "IV",
+          "indication": "Hepatorenal syndrome type 1, oesophageal variceal bleeding",
+          "black_box": "Ischaemia, fluid overload"
+        },
+        {
+          "name": "Norepinephrine (HRS)",
+          "class": "Vasopressor",
+          "dose": "0.5-3 mg/hr IV",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Hepatorenal syndrome",
+          "black_box": "Organ ischaemia"
+        },
+        {
+          "name": "Albumin",
+          "class": "Plasma expander",
+          "dose": "20-40g IV (in HRS: 1g/kg/day)",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "HRS, SBP prevention, paracentesis",
+          "black_box": "Volume overload, pulmonary oedema"
+        },
+        {
+          "name": "Trimethoprim",
+          "class": "Antibiotic (nephrology context)",
+          "dose": "200mg BD (reduce in CKD)",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "UTI in CKD, transplant",
+          "black_box": "Hyperkalaemia (blocks tubular K+ secretion), folate antagonism"
+        },
+        {
+          "name": "Nitrofurantoin",
+          "class": "Antibiotic",
+          "dose": "50-100mg QDS or 100mg BD (MR)",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "Lower UTI",
+          "black_box": "Avoid if eGFR<30 (no renal excretion, systemic toxicity)"
+        },
+        {
+          "name": "Temocillin",
+          "class": "Beta-lactam ureidopenicillin",
+          "dose": "1-2g BD IV",
+          "max_daily": "4g",
+          "route": "IV",
+          "indication": "ESBL Gram-negative UTI, pyelonephritis",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Fosfomycin",
+          "class": "Antibiotic cell wall",
+          "dose": "3g single sachet PO; 8-12g/day IV",
+          "max_daily": "12g IV",
+          "route": "PO/IV",
+          "indication": "Uncomplicated UTI, complex UTI",
+          "black_box": "Sodium load IV, resistance"
+        },
+        {
+          "name": "Sodium Polystyrene Sulfonate",
+          "class": "Cation exchange",
+          "dose": "15g TDS-QDS PO",
+          "max_daily": "60g",
+          "route": "PO/Enema",
+          "indication": "Hyperkalaemia",
+          "black_box": "Intestinal necrosis (especially sorbitol preparation)"
+        },
+        {
+          "name": "Patiromer Sorbitex Calcium",
+          "class": "K+ binder",
+          "dose": "8.4g OD",
+          "max_daily": "25.2g",
+          "route": "PO",
+          "indication": "Hyperkalaemia",
+          "black_box": "GI side effects"
+        },
+        {
+          "name": "Bisphosphonates (Alendronate)",
+          "class": "Osteoclast inhibitor",
+          "dose": "70mg weekly PO",
+          "max_daily": "10mg/day equivalent",
+          "route": "PO",
+          "indication": "Renal osteodystrophy/CKD-MBD osteoporosis prevention",
+          "black_box": "Avoid eGFR<35, osteonecrosis jaw"
+        },
+        {
+          "name": "Denosumab",
+          "class": "Anti-RANKL monoclonal",
+          "dose": "60mg SC Q6M",
+          "max_daily": "60mg",
+          "route": "SC",
+          "indication": "Osteoporosis in CKD (safe with any eGFR if calcium monitored)",
+          "black_box": "Hypocalcaemia, osteonecrosis jaw"
+        },
+        {
+          "name": "Calcitonin",
+          "class": "Hormone",
+          "dose": "100-200 IU SC/IM OD or BD",
+          "max_daily": "400 IU",
+          "route": "SC/IM nasally",
+          "indication": "Hypercalcaemia",
+          "black_box": "Malignancy risk with prolonged use"
+        },
+        {
+          "name": "Pamidronate",
+          "class": "Bisphosphonate IV",
+          "dose": "30-90mg IV over 2-4hr",
+          "max_daily": "90mg",
+          "route": "IV",
+          "indication": "Hypercalcaemia of malignancy, Paget's",
+          "black_box": "ONJ, nephrotoxicity, flu-like"
+        },
+        {
+          "name": "Zoledronic Acid",
+          "class": "Bisphosphonate IV",
+          "dose": "4mg IV over \u226515min",
+          "max_daily": "4mg",
+          "route": "IV",
+          "indication": "Hypercalcaemia",
+          "black_box": "ONJ, AKI, avoid if eGFR<35"
+        },
+        {
+          "name": "Cinacalcet",
+          "class": "Calcimimetic",
+          "dose": "30-180mg OD",
+          "max_daily": "180mg",
+          "route": "PO",
+          "indication": "Secondary hyperparathyroidism dialysis",
+          "black_box": "Hypocalcaemia"
+        },
+        {
+          "name": "Etelcalcetide",
+          "class": "IV calcimimetic",
+          "dose": "5mg IV TIW (with dialysis)",
+          "max_daily": "15mg/session",
+          "route": "IV",
+          "indication": "Secondary hyperparathyroidism haemodialysis",
+          "black_box": "Hypocalcaemia, nausea"
+        },
+        {
+          "name": "Heparin (CRRT anticoagulation)",
+          "class": "Anticoagulant",
+          "dose": "Systemic or regional; 500-1000 units/hr",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "CRRT circuit anticoagulation",
+          "black_box": "HIT, bleeding"
+        },
+        {
+          "name": "Citrate (CRRT regional anticoagulation)",
+          "class": "Chelating anticoagulant",
+          "dose": "Pre-filter infusion per protocol",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "CRRT anticoagulation in bleeding risk",
+          "black_box": "Metabolic alkalosis, citrate accumulation"
+        },
+        {
+          "name": "Protamine",
+          "class": "Heparin antagonist",
+          "dose": "1mg per 100 units heparin",
+          "max_daily": "50mg",
+          "route": "IV",
+          "indication": "Heparin reversal",
+          "black_box": "Hypotension, anaphylaxis"
+        },
+        {
+          "name": "Essential Amino Acids (Keto-acids)",
+          "class": "Nutritional supplement",
+          "dose": "4-8 tablets TDS with meals",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "CKD low-protein diet supplementation",
+          "black_box": "Hypercalcaemia with vit D"
+        },
+        {
+          "name": "Losartan in Alport Syndrome",
+          "class": "ARB",
+          "dose": "25-100mg OD",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "Alport syndrome nephroprotection",
+          "black_box": "Same as standard ARB"
+        },
+        {
+          "name": "Hydroxychloroquine",
+          "class": "Antimalarial",
+          "dose": "200-400mg OD (max 5mg/kg lean body weight)",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "Lupus nephritis adjunct",
+          "black_box": "Retinopathy"
+        },
+        {
+          "name": "Chlorambucil (historical)",
+          "class": "Alkylating agent",
+          "dose": "0.2mg/kg/day",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "Minimal change disease, membranous (historical)",
+          "black_box": "Myelosuppression, leukaemogenesis"
+        },
+        {
+          "name": "Eculizumab",
+          "class": "Anti-C5 complement inhibitor",
+          "dose": "900mg IV QW x4, then 1200mg Q2W",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "aHUS, PNH",
+          "black_box": "Meningococcal infection (vaccinate \u22652wk before)"
+        },
+        {
+          "name": "Ravulizumab",
+          "class": "Anti-C5 (long-acting)",
+          "dose": "Weight-based Q8W",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "aHUS, PNH",
+          "black_box": "Meningococcal infection"
+        },
+        {
+          "name": "Avacopan",
+          "class": "Oral C5aR inhibitor",
+          "dose": "30mg BD",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "ANCA vasculitis",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Methylprednisolone (pulse nephrology)",
+          "class": "Corticosteroid",
+          "dose": "500-1000mg IV QD x3",
+          "max_daily": "1g",
+          "route": "IV",
+          "indication": "Rapidly progressive GN, anti-GBM disease",
+          "black_box": "Hyperglycaemia, infection"
+        },
+        {
+          "name": "Plasma exchange",
+          "class": "Extracorporeal",
+          "dose": "1-1.5 plasma volumes per session",
+          "max_daily": "Typically QD",
+          "route": "Extracorporeal",
+          "indication": "Anti-GBM disease, TTP, HUS",
+          "black_box": "Procedure risks"
+        },
+        {
+          "name": "Obinutuzumab",
+          "class": "Anti-CD20 humanised monoclonal",
+          "dose": "1000mg IV per protocol",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Rituximab-resistant lupus nephritis",
+          "black_box": "Infusion reactions, PML"
+        },
+        {
+          "name": "Voclosporin",
+          "class": "CNI",
+          "dose": "23.7mg BD",
+          "max_daily": "47.4mg",
+          "route": "PO",
+          "indication": "Lupus nephritis",
+          "black_box": "Nephrotoxicity"
+        },
+        {
+          "name": "Sparsentan",
+          "class": "Dual ET-1/angiotensin receptor antagonist",
+          "dose": "400mg OD (titrated)",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "IgA nephropathy",
+          "black_box": "Hepatotoxicity, teratogenicity"
+        },
+        {
+          "name": "Burosumab",
+          "class": "Anti-FGF23 monoclonal",
+          "dose": "1mg/kg SC Q4W (adult)",
+          "max_daily": "Protocol",
+          "route": "SC",
+          "indication": "X-linked hypophosphataemia",
+          "black_box": "Hyperphosphataemia"
+        },
+        {
+          "name": "Desmopressin (DDAVP)",
+          "class": "Vasopressin analogue",
+          "dose": "0.3 mcg/kg IV; 10-40 mcg intranasal",
+          "max_daily": "Protocol",
+          "route": "IV/Intranasal",
+          "indication": "Central DI, von Willebrand (haemostasis boost in CKD)",
+          "black_box": "Hyponatraemia, thrombosis"
+        },
+        {
+          "name": "Sodium Chloride (hypertonic 3%)",
+          "class": "Hypertonic saline",
+          "dose": "1-2 mL/kg/hr (correct by 1-2 mEq/L/hr max)",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Severe symptomatic hyponatraemia",
+          "black_box": "Osmotic demyelination if corrected too fast >10-12 mEq/24hr"
+        },
+        {
+          "name": "Demeclocycline",
+          "class": "Tetracycline (ADH antagonist)",
+          "dose": "600-1200mg/day divided",
+          "max_daily": "1200mg",
+          "route": "PO",
+          "indication": "SIADH (second-line)",
+          "black_box": "Nephrotoxicity, photosensitivity"
+        },
+        {
+          "name": "Vasopressin (Argipressin)",
+          "class": "Vasopressin",
+          "dose": "0.01-0.04 units/min IV",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Septic shock, hepatorenal syndrome",
+          "black_box": "Ischaemia"
+        },
+        {
+          "name": "Deferasirox",
+          "class": "Oral iron chelator",
+          "dose": "14-28mg/kg OD",
+          "max_daily": "28mg/kg",
+          "route": "PO",
+          "indication": "Iron overload in transfusion-dependent patients (nephrological context)",
+          "black_box": "Nephrotoxicity, GI haemorrhage"
+        },
+        {
+          "name": "Colchicine",
+          "class": "Anti-inflammatory",
+          "dose": "0.5mg BD (reduce in CKD)",
+          "max_daily": "1mg",
+          "route": "PO",
+          "indication": "Gout - must reduce dose in CKD",
+          "black_box": "Myopathy/rhabdomyolysis in CKD/drug interactions"
+        },
+        {
+          "name": "Febuxostat",
+          "class": "XO inhibitor",
+          "dose": "80-120mg OD",
+          "max_daily": "120mg",
+          "route": "PO",
+          "indication": "Gout in CKD (preferred over allopurinol)",
+          "black_box": "CV events"
+        },
+        {
+          "name": "Benzbromarone",
+          "class": "Uricosuric",
+          "dose": "25-200mg OD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Gout with renal underexcretion",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Enalapril IV",
+          "class": "ACE inhibitor IV",
+          "dose": "0.625-1.25mg IV over 5min Q6H",
+          "max_daily": "5mg",
+          "route": "IV",
+          "indication": "Hypertensive emergency in CKD",
+          "black_box": "AKI, hyperkalaemia, angioedema"
+        },
+        {
+          "name": "Sodium Bicarbonate (isotonic 1.26%)",
+          "class": "Buffer",
+          "dose": "250-500mL IV",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Metabolic acidosis, contrast nephropathy prevention",
+          "black_box": "Volume overload, alkalosis"
+        },
+        {
+          "name": "N-Acetylcysteine",
+          "class": "Antioxidant",
+          "dose": "600mg BD PO (contrast prevention); IV for paracetamol OD",
+          "max_daily": "Protocol",
+          "route": "PO/IV",
+          "indication": "Contrast-induced nephropathy prevention, hepatorenal",
+          "black_box": "Anaphylactoid IV"
+        },
+        {
+          "name": "Erythropoietin Stimulating Agents (general)",
+          "class": "ESA class",
+          "dose": "Per protocol (target Hb 100-120 g/L)",
+          "max_daily": "Protocol",
+          "route": "SC/IV",
+          "indication": "Renal anaemia",
+          "black_box": "Hypertension, thrombosis, stroke if Hb >130"
+        },
+        {
+          "name": "Iron IV (general class)",
+          "class": "IV iron replacements",
+          "dose": "Per product",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Iron deficiency in CKD/dialysis",
+          "black_box": "Hypersensitivity"
+        },
+        {
+          "name": "Canagliflozin",
+          "class": "SGLT2 inhibitor",
+          "dose": "100mg OD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "CKD with T2DM",
+          "black_box": "DKA, fractures, amputations"
+        },
+        {
+          "name": "Sotagliflozin",
+          "class": "Dual SGLT1/2 inhibitor",
+          "dose": "200-400mg OD",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "HF with CKD",
+          "black_box": "DKA, genital infections"
+        },
+        {
+          "name": "Bardoxolone methyl",
+          "class": "Nrf2 activator",
+          "dose": "5-20mg OD",
+          "max_daily": "20mg",
+          "route": "PO",
+          "indication": "Alport CKD (investigational)",
+          "black_box": "HF worsening"
+        }
+      ]
+    },
+    "gastroenterology": {
+      "count": 100,
+      "drugs": [
+        {
+          "name": "Omeprazole",
+          "class": "Proton pump inhibitor",
+          "dose": "20-40mg OD",
+          "max_daily": "80mg",
+          "route": "PO/IV",
+          "indication": "GORD, peptic ulcer, ZE syndrome",
+          "black_box": "C. difficile, Mg deficiency (long-term), fractures"
+        },
+        {
+          "name": "Pantoprazole",
+          "class": "PPI",
+          "dose": "40mg OD",
+          "max_daily": "80mg IV (ZE: 240mg)",
+          "route": "PO/IV",
+          "indication": "GORD, upper GI bleed prophylaxis, ZE",
+          "black_box": "As omeprazole"
+        },
+        {
+          "name": "Lansoprazole",
+          "class": "PPI",
+          "dose": "15-30mg OD",
+          "max_daily": "60mg",
+          "route": "PO",
+          "indication": "GORD, H. pylori (triple therapy)",
+          "black_box": "As omeprazole"
+        },
+        {
+          "name": "Esomeprazole",
+          "class": "PPI",
+          "dose": "20-40mg OD",
+          "max_daily": "80mg",
+          "route": "PO/IV",
+          "indication": "GORD, post-endoscopy bleed prevention",
+          "black_box": "As omeprazole"
+        },
+        {
+          "name": "Rabeprazole",
+          "class": "PPI",
+          "dose": "10-20mg OD",
+          "max_daily": "40mg",
+          "route": "PO",
+          "indication": "GORD, peptic ulcer",
+          "black_box": "CYP2C19 metabolism (fewer drug interactions)"
+        },
+        {
+          "name": "Ranitidine",
+          "class": "H2 antagonist",
+          "dose": "150mg BD or 300mg nocte",
+          "max_daily": "600mg",
+          "route": "PO/IV",
+          "indication": "GORD, peptic ulcer, indigestion",
+          "black_box": "NDMA contamination (withdrawn many markets)"
+        },
+        {
+          "name": "Famotidine",
+          "class": "H2 antagonist",
+          "dose": "20-40mg BD or nocte",
+          "max_daily": "80mg",
+          "route": "PO/IV",
+          "indication": "GORD, peptic ulcer",
+          "black_box": "None specific"
+        },
+        {
+          "name": "Metoclopramide",
+          "class": "Prokinetic dopamine antagonist",
+          "dose": "10mg TDS AC",
+          "max_daily": "30mg",
+          "route": "PO/IM/IV",
+          "indication": "Nausea, gastroparesis",
+          "black_box": "Tardive dyskinesia (max 5 days IV/IM)"
+        },
+        {
+          "name": "Domperidone",
+          "class": "Prokinetic peripheral dopamine antagonist",
+          "dose": "10mg TDS AC",
+          "max_daily": "30mg (low dose recommended)",
+          "route": "PO",
+          "indication": "Nausea, gastroparesis",
+          "black_box": "QT prolongation, cardiac risk (restrict to <7 days)"
+        },
+        {
+          "name": "Erythromycin",
+          "class": "Motilin receptor agonist prokinetic",
+          "dose": "250mg TDS (prokinetic dose)",
+          "max_daily": "750mg",
+          "route": "PO/IV",
+          "indication": "Gastroparesis, gastric emptying pre-endoscopy",
+          "black_box": "QT prolongation, antibiotic resistance"
+        },
+        {
+          "name": "Ondansetron",
+          "class": "5-HT3 antagonist antiemetic",
+          "dose": "4-8mg BD-TDS",
+          "max_daily": "32mg (8mg x4)",
+          "route": "PO/IV/IM",
+          "indication": "Chemotherapy nausea, post-op, acute vomiting",
+          "black_box": "QT prolongation, serotonin syndrome"
+        },
+        {
+          "name": "Granisetron",
+          "class": "5-HT3 antagonist",
+          "dose": "1-2mg PO BD; 1mg IV",
+          "max_daily": "9mg (PO)",
+          "route": "PO/IV",
+          "indication": "CINV, PONV",
+          "black_box": "QT prolongation"
+        },
+        {
+          "name": "Cyclizine",
+          "class": "H1 antihistamine antiemetic",
+          "dose": "50mg TDS PO/IM/IV",
+          "max_daily": "150mg",
+          "route": "PO/IM/IV",
+          "indication": "Motion sickness, vertigo, PONV",
+          "black_box": "Dry mouth, sedation, tachycardia"
+        },
+        {
+          "name": "Prochlorperazine",
+          "class": "Phenothiazine antiemetic",
+          "dose": "5-10mg TDS PO; 12.5mg IM",
+          "max_daily": "40mg",
+          "route": "PO/IM/Buccal",
+          "indication": "Nausea, vertigo",
+          "black_box": "EPS, QT prolongation"
+        },
+        {
+          "name": "Haloperidol (anti-emetic dose)",
+          "class": "Butyrophenone",
+          "dose": "0.5-5mg TDS SC/IM",
+          "max_daily": "5mg",
+          "route": "SC/IV/PO",
+          "indication": "Intractable nausea, palliative care",
+          "black_box": "QT prolongation, EPS"
+        },
+        {
+          "name": "Dexamethasone (anti-emetic)",
+          "class": "Corticosteroid",
+          "dose": "4-8mg PO/IV",
+          "max_daily": "20mg",
+          "route": "PO/IV",
+          "indication": "CINV (combined with 5-HT3 antagonist)",
+          "black_box": "Hyperglycaemia, immunosuppression"
+        },
+        {
+          "name": "Aprepitant",
+          "class": "NK1 antagonist antiemetic",
+          "dose": "125mg day 1, 80mg days 2-3",
+          "max_daily": "125mg",
+          "route": "PO",
+          "indication": "CINV (highly emetogenic chemotherapy)",
+          "black_box": "Drug interactions (CYP3A4)"
+        },
+        {
+          "name": "Hyoscine Butylbromide",
+          "class": "Antispasmodic anticholinergic",
+          "dose": "20mg QDS PO; 20mg IM/IV",
+          "max_daily": "100mg",
+          "route": "PO/IM/IV",
+          "indication": "IBS-D, abdominal cramps, bowel colic",
+          "black_box": "Glaucoma, prostatic hypertrophy"
+        },
+        {
+          "name": "Mebeverine",
+          "class": "Antispasmodic non-anticholinergic",
+          "dose": "135-200mg TDS AC",
+          "max_daily": "600mg",
+          "route": "PO",
+          "indication": "IBS",
+          "black_box": "None"
+        },
+        {
+          "name": "Peppermint Oil",
+          "class": "Antispasmodic",
+          "dose": "1-2 caps TDS AC (enteric coated)",
+          "max_daily": "6 caps",
+          "route": "PO",
+          "indication": "IBS spasm",
+          "black_box": "Heartburn if enteric coat broken"
+        },
+        {
+          "name": "Loperamide",
+          "class": "Opioid receptor agonist (gut)",
+          "dose": "4mg initially then 2mg after loose stool",
+          "max_daily": "16mg",
+          "route": "PO",
+          "indication": "Acute diarrhoea, ileostomy output",
+          "black_box": "Avoid in bloody/infective diarrhoea, toxic megacolon"
+        },
+        {
+          "name": "Colestyramine",
+          "class": "Bile acid sequestrant",
+          "dose": "4g 1-6 sachets daily",
+          "max_daily": "36g",
+          "route": "PO",
+          "indication": "Bile acid diarrhoea, pruritus in cholestasis",
+          "black_box": "Malabsorption of fat-soluble vitamins and drugs"
+        },
+        {
+          "name": "Colesevelam",
+          "class": "Bile acid sequestrant",
+          "dose": "1.875g BD",
+          "max_daily": "3.75g",
+          "route": "PO",
+          "indication": "Bile acid diarrhoea, hypercholesterolaemia",
+          "black_box": "Drug absorption interference"
+        },
+        {
+          "name": "Mesalazine (5-ASA)",
+          "class": "Aminosalicylate",
+          "dose": "2.4-4.8g/day divided or OD (modified release)",
+          "max_daily": "4.8g PO; 1g suppository BD",
+          "route": "PO/Enema/Suppository",
+          "indication": "Ulcerative colitis induction and maintenance",
+          "black_box": "Nephrotoxicity (rare), hair loss"
+        },
+        {
+          "name": "Sulfasalazine",
+          "class": "5-ASA + sulfapyridine",
+          "dose": "1-4g/day divided",
+          "max_daily": "4g",
+          "route": "PO",
+          "indication": "Mild-moderate UC, IBD with arthritis",
+          "black_box": "Folate deficiency, haemolysis (G6PD), sulfa allergy"
+        },
+        {
+          "name": "Budesonide (oral, GI)",
+          "class": "Topical corticosteroid",
+          "dose": "9mg OD (Crohn's ileitis); 9mg OD x8wks (microscopic colitis)",
+          "max_daily": "9mg",
+          "route": "PO",
+          "indication": "Ileocaecal Crohn's, microscopic colitis",
+          "black_box": "Systemic absorption less than prednisolone but present"
+        },
+        {
+          "name": "Prednisolone (IBD)",
+          "class": "Systemic corticosteroid",
+          "dose": "40mg OD induction, then taper",
+          "max_daily": "60mg",
+          "route": "PO/IV",
+          "indication": "Moderate-severe UC/Crohn's flare",
+          "black_box": "Full corticosteroid side effect profile"
+        },
+        {
+          "name": "Azathioprine (IBD)",
+          "class": "Thiopurine immunosuppressant",
+          "dose": "1.5-2.5mg/kg OD (after TPMT testing)",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "IBD maintenance, steroid-sparing",
+          "black_box": "Myelosuppression, lymphoma, TPMT deficiency pancreatopenia"
+        },
+        {
+          "name": "Mercaptopurine",
+          "class": "Thiopurine",
+          "dose": "0.75-1.5mg/kg OD",
+          "max_daily": "150mg",
+          "route": "PO",
+          "indication": "IBD (azathioprine intolerant)",
+          "black_box": "Myelosuppression, hepatotoxicity"
+        },
+        {
+          "name": "Methotrexate (IBD)",
+          "class": "Folate antagonist immunosuppressant",
+          "dose": "15-25mg SC/IM QW",
+          "max_daily": "25mg/week",
+          "route": "SC/IM",
+          "indication": "Crohn's (not UC), steroid-sparing",
+          "black_box": "Hepatotoxicity, pulmonary, teratogenicity, myelosuppression"
+        },
+        {
+          "name": "Infliximab",
+          "class": "Anti-TNF\u03b1 chimeric monoclonal",
+          "dose": "5mg/kg IV at 0,2,6wk then Q8W",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Moderate-severe IBD, anti-TNF naive",
+          "black_box": "TB (screen), infection, malignancy, lymphoma"
+        },
+        {
+          "name": "Adalimumab",
+          "class": "Anti-TNF\u03b1 fully human monoclonal",
+          "dose": "160mg SC, 80mg wk2, 40mg Q2W",
+          "max_daily": "Protocol",
+          "route": "SC",
+          "indication": "Moderate-severe UC, Crohn's",
+          "black_box": "TB, infection, malignancy"
+        },
+        {
+          "name": "Golimumab",
+          "class": "Anti-TNF\u03b1 monoclonal",
+          "dose": "200mg SC wk0, 100mg wk2, then Q4W",
+          "max_daily": "Protocol",
+          "route": "SC",
+          "indication": "UC",
+          "black_box": "TB, infection, malignancy"
+        },
+        {
+          "name": "Certolizumab Pegol",
+          "class": "Anti-TNF PEGylated Fab",
+          "dose": "400mg SC Q4W",
+          "max_daily": "Protocol",
+          "route": "SC",
+          "indication": "Crohn's disease",
+          "black_box": "Infection, TB"
+        },
+        {
+          "name": "Vedolizumab",
+          "class": "Anti-integrin \u03b14\u03b27 monoclonal",
+          "dose": "300mg IV at 0,2,6wk then Q8W",
+          "max_daily": "Protocol",
+          "route": "IV/SC",
+          "indication": "Moderate-severe UC, Crohn's (gut-selective)",
+          "black_box": "PML (very low risk), infusion reactions"
+        },
+        {
+          "name": "Ustekinumab",
+          "class": "Anti-IL-12/23 monoclonal",
+          "dose": "IV induction (weight-based), 90mg SC Q8-12W",
+          "max_daily": "Protocol",
+          "route": "IV then SC",
+          "indication": "Moderate-severe Crohn's, UC",
+          "black_box": "Infection, malignancy (less than anti-TNF)"
+        },
+        {
+          "name": "Risankizumab",
+          "class": "Anti-IL-23 (p19) monoclonal",
+          "dose": "600mg IV x3 then 360mg SC Q8W",
+          "max_daily": "Protocol",
+          "route": "IV then SC",
+          "indication": "Moderate-severe Crohn's, UC",
+          "black_box": "Infection"
+        },
+        {
+          "name": "Ozanimod",
+          "class": "S1P receptor modulator",
+          "dose": "0.23mg OD wk1-4, then 0.92mg OD",
+          "max_daily": "0.92mg",
+          "route": "PO",
+          "indication": "Moderate-severe UC",
+          "black_box": "Bradycardia on initiation, infection, macular oedema"
+        },
+        {
+          "name": "Filgotinib",
+          "class": "JAK1 inhibitor",
+          "dose": "200mg OD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Moderate-severe UC (EU)",
+          "black_box": "Infection, VTE, malignancy"
+        },
+        {
+          "name": "Tofacitinib",
+          "class": "JAK1/3 inhibitor",
+          "dose": "10mg BD (8wk induction) then 5mg BD",
+          "max_daily": "20mg induction",
+          "route": "PO",
+          "indication": "Moderate-severe UC",
+          "black_box": "Herpes zoster, VTE, MACE, malignancy"
+        },
+        {
+          "name": "Upadacitinib",
+          "class": "JAK1 selective inhibitor",
+          "dose": "45mg OD x8wk then 15mg OD",
+          "max_daily": "45mg",
+          "route": "PO",
+          "indication": "UC, Crohn's",
+          "black_box": "VTE, malignancy, infection, MACE"
+        },
+        {
+          "name": "Lactulose",
+          "class": "Osmotic laxative",
+          "dose": "15-30mL BD-TDS (laxative); 15-30mL 3-4x daily (HE)",
+          "max_daily": "Titrate to 2-3 stools/day in HE",
+          "route": "PO",
+          "indication": "Constipation, hepatic encephalopathy",
+          "black_box": "Electrolyte disturbance, bloating"
+        },
+        {
+          "name": "Rifaximin",
+          "class": "Non-systemic antibiotic",
+          "dose": "550mg BD (HE prophylaxis); 400mg TDS x14 days (IBS-D)",
+          "max_daily": "1650mg",
+          "route": "PO",
+          "indication": "Hepatic encephalopathy prevention, IBS-D, traveller's diarrhoea",
+          "black_box": "C. difficile (very low risk - non-systemic)"
+        },
+        {
+          "name": "Liraglutide (hepatology)",
+          "class": "GLP-1 receptor agonist",
+          "dose": "0.6mg SC OD, titrate to 3mg OD",
+          "max_daily": "3mg",
+          "route": "SC",
+          "indication": "MASLD/NASH with obesity",
+          "black_box": "Thyroid C-cell tumours (rodents), pancreatitis"
+        },
+        {
+          "name": "Semaglutide (hepatology)",
+          "class": "GLP-1 receptor agonist",
+          "dose": "0.25mg weekly SC, titrate to 2.4mg",
+          "max_daily": "2.4mg weekly",
+          "route": "SC",
+          "indication": "MASLD/NASH",
+          "black_box": "Thyroid C-cell tumours, pancreatitis"
+        },
+        {
+          "name": "Obeticholic Acid",
+          "class": "FXR agonist",
+          "dose": "5-10mg OD (PBC with UDCA)",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "Primary biliary cholangitis (inadequate UDCA response)",
+          "black_box": "Hepatic decompensation risk if Child-Pugh B/C"
+        },
+        {
+          "name": "Ursodeoxycholic Acid",
+          "class": "Hydrophilic bile acid",
+          "dose": "10-15mg/kg/day",
+          "max_daily": "1.2g",
+          "route": "PO",
+          "indication": "Primary biliary cholangitis, gallstones (dissolution)",
+          "black_box": "None significant; diarrhoea"
+        },
+        {
+          "name": "Terlipressin",
+          "class": "Vasopressin analogue",
+          "dose": "2mg IV Q4H (acute variceal bleed)",
+          "max_daily": "12mg",
+          "route": "IV",
+          "indication": "Variceal bleeding, hepatorenal syndrome",
+          "black_box": "Ischaemia, fluid overload"
+        },
+        {
+          "name": "Octreotide",
+          "class": "Somatostatin analogue",
+          "dose": "50 mcg IV bolus then 50 mcg/hr infusion",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Variceal bleeding, VIPoma, neuroendocrine tumours",
+          "black_box": "Gallstones, bradycardia, hypoglycaemia"
+        },
+        {
+          "name": "Propranolol (variceal prophylaxis)",
+          "class": "Non-selective beta-blocker",
+          "dose": "40-160mg BD",
+          "max_daily": "320mg",
+          "route": "PO",
+          "indication": "Primary/secondary variceal bleeding prophylaxis",
+          "black_box": "Masks hypoglycaemia, bronchospasm"
+        },
+        {
+          "name": "Carvedilol (variceal prophylaxis)",
+          "class": "Non-selective beta-blocker + alpha-1 blocker",
+          "dose": "6.25mg BD",
+          "max_daily": "12.5mg",
+          "route": "PO",
+          "indication": "Variceal prophylaxis (may be superior to propranolol)",
+          "black_box": "Hypotension"
+        },
+        {
+          "name": "N-Acetylcysteine (paracetamol OD)",
+          "class": "Glutathione precursor",
+          "dose": "150mg/kg IV over 1hr, then 12.5mg/kg over 4hr, then 6.25mg/kg over 16hr",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Paracetamol overdose, acute liver failure",
+          "black_box": "Anaphylactoid reactions"
+        },
+        {
+          "name": "Vancomycin PO (C. difficile)",
+          "class": "Glycopeptide",
+          "dose": "125-500mg QDS PO x10 days",
+          "max_daily": "2g PO",
+          "route": "PO",
+          "indication": "C. difficile colitis (moderate-severe)",
+          "black_box": "Minimal systemic absorption PO"
+        },
+        {
+          "name": "Fidaxomicin",
+          "class": "Macrocyclic antibiotic",
+          "dose": "200mg BD x10 days",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "C. difficile (preferred over vancomycin for recurrent)",
+          "black_box": "GI side effects"
+        },
+        {
+          "name": "Metronidazole",
+          "class": "Nitroimidazole antibiotic",
+          "dose": "400-500mg TDS PO",
+          "max_daily": "1500mg",
+          "route": "PO/IV",
+          "indication": "C. difficile (mild, if no alternatives); anaerobic infections; H. pylori",
+          "black_box": "Peripheral neuropathy, alcohol interaction"
+        },
+        {
+          "name": "Bezlotoxumab",
+          "class": "Anti-CDT B toxin monoclonal",
+          "dose": "10mg/kg IV single dose",
+          "max_daily": "Single infusion",
+          "route": "IV",
+          "indication": "Prevention of recurrent C. difficile",
+          "black_box": "HF worsening"
+        },
+        {
+          "name": "Cholestyramine (cholestasis)",
+          "class": "Bile acid sequestrant",
+          "dose": "4g 1-4 times daily",
+          "max_daily": "24g",
+          "route": "PO",
+          "indication": "Pruritus due to cholestasis, bile acid diarrhoea",
+          "black_box": "Drug interactions (take medicines 1hr before or 4-6hr after)"
+        },
+        {
+          "name": "Rifampicin (cholestasis)",
+          "class": "Rifamycin",
+          "dose": "150-600mg OD",
+          "max_daily": "600mg",
+          "route": "PO",
+          "indication": "Refractory cholestatic pruritus",
+          "black_box": "Hepatotoxicity, drug interactions"
+        },
+        {
+          "name": "Naltrexone (cholestasis)",
+          "class": "Opioid antagonist",
+          "dose": "12.5-50mg OD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "Cholestatic pruritus",
+          "black_box": "Withdrawal reaction; cannot use if opioid-dependent"
+        },
+        {
+          "name": "Sertraline (cholestasis pruritus)",
+          "class": "SSRI",
+          "dose": "75-100mg OD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Refractory cholestatic pruritus",
+          "black_box": "SSRIs standard risks"
+        },
+        {
+          "name": "Prokinetics (Prucalopride)",
+          "class": "Selective 5-HT4 agonist",
+          "dose": "2mg OD (1mg if elderly)",
+          "max_daily": "2mg",
+          "route": "PO",
+          "indication": "Chronic constipation (IBS-C, gastroparesis)",
+          "black_box": "None significant"
+        },
+        {
+          "name": "Linaclotide",
+          "class": "GC-C agonist",
+          "dose": "290 mcg OD (30min before breakfast)",
+          "max_daily": "290 mcg",
+          "route": "PO",
+          "indication": "IBS-C, CIC",
+          "black_box": "Diarrhoea (paediatric deaths with higher doses)"
+        },
+        {
+          "name": "Plecanatide",
+          "class": "GC-C agonist",
+          "dose": "3mg OD",
+          "max_daily": "3mg",
+          "route": "PO",
+          "indication": "CIC, IBS-C",
+          "black_box": "Diarrhoea - avoid in pediatric use"
+        },
+        {
+          "name": "Lubiprostone",
+          "class": "ClC-2 channel activator",
+          "dose": "8-24 mcg BD",
+          "max_daily": "48 mcg",
+          "route": "PO",
+          "indication": "CIC, IBS-C, opioid-induced constipation",
+          "black_box": "Nausea"
+        },
+        {
+          "name": "Bisacodyl",
+          "class": "Stimulant laxative",
+          "dose": "5-10mg nocte PO; 10mg suppository",
+          "max_daily": "15mg PO",
+          "route": "PO/PR",
+          "indication": "Constipation, bowel preparation",
+          "black_box": "Electrolyte disturbance (chronic use)"
+        },
+        {
+          "name": "Senna",
+          "class": "Stimulant laxative",
+          "dose": "2-4 tablets nocte",
+          "max_daily": "4 tablets",
+          "route": "PO",
+          "indication": "Constipation, opioid-induced constipation",
+          "black_box": "Melanosis coli (chronic), electrolytes"
+        },
+        {
+          "name": "Macrogol (PEG)",
+          "class": "Osmotic laxative",
+          "dose": "1-3 sachets OD-TDS",
+          "max_daily": "8 sachets",
+          "route": "PO",
+          "indication": "Constipation, bowel preparation",
+          "black_box": "Electrolyte disturbance at high doses"
+        },
+        {
+          "name": "Methylnaltrexone",
+          "class": "Peripheral mu-opioid antagonist",
+          "dose": "8-12mg SC every other day",
+          "max_daily": "12mg",
+          "route": "SC",
+          "indication": "Opioid-induced constipation (palliative care)",
+          "black_box": "GI perforation if GI obstruction risk"
+        },
+        {
+          "name": "Naloxegol",
+          "class": "PEGylated opioid antagonist (oral)",
+          "dose": "12.5-25mg OD",
+          "max_daily": "25mg",
+          "route": "PO",
+          "indication": "Opioid-induced constipation",
+          "black_box": "Do not use if taking strong CYP3A4 inhibitors"
+        },
+        {
+          "name": "Pancreatin (Creon)",
+          "class": "Pancreatic enzyme replacement",
+          "dose": "25,000-75,000 units lipase per main meal",
+          "max_daily": "Titrate to symptoms",
+          "route": "PO",
+          "indication": "Exocrine pancreatic insufficiency (chronic pancreatitis, CF)",
+          "black_box": "Fibrosing colonopathy at very high doses (paediatrics)"
+        },
+        {
+          "name": "Octreotide LAR",
+          "class": "Long-acting somatostatin analogue",
+          "dose": "20-30mg IM Q4W",
+          "max_daily": "30mg/month",
+          "route": "IM",
+          "indication": "Acromegaly, carcinoid, VIPoma, oesophageal varices (prophylaxis)",
+          "black_box": "Gallstones, hyperglycaemia"
+        },
+        {
+          "name": "Omeprazole IV (variceal bleed adjunct)",
+          "class": "PPI",
+          "dose": "80mg IV bolus then 8mg/hr infusion x72hr",
+          "max_daily": "104mg over 24hr steady state",
+          "route": "IV",
+          "indication": "Post-endoscopic treatment of peptic ulcer bleeding",
+          "black_box": "Limited evidence for re-bleeding reduction"
+        },
+        {
+          "name": "Sucralfate",
+          "class": "Mucosal protectant",
+          "dose": "1g QDS on empty stomach",
+          "max_daily": "4g",
+          "route": "PO",
+          "indication": "Peptic ulcer, stress ulcer prophylaxis (ICU)",
+          "black_box": "Aluminium accumulation in renal failure"
+        },
+        {
+          "name": "Bismuth Quadruple Therapy",
+          "class": "Helicobacter pylori eradication",
+          "dose": "Bismuth + tetracycline + metronidazole + PPI",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "H. pylori (first line if clarithromycin resistance high; second line)",
+          "black_box": "Black stools, tongue, neurotoxicity (high-dose bismuth)"
+        },
+        {
+          "name": "Amoxicillin (H. pylori)",
+          "class": "Beta-lactam antibiotic",
+          "dose": "1g BD in triple therapy",
+          "max_daily": "2g",
+          "route": "PO",
+          "indication": "H. pylori eradication (triple/sequential)",
+          "black_box": "Penicillin allergy"
+        },
+        {
+          "name": "Clarithromycin (H. pylori)",
+          "class": "Macrolide antibiotic",
+          "dose": "500mg BD",
+          "max_daily": "1g",
+          "route": "PO",
+          "indication": "H. pylori eradication",
+          "black_box": "QT prolongation, increasing resistance"
+        },
+        {
+          "name": "Vonoprazan",
+          "class": "Potassium-competitive acid blocker",
+          "dose": "20mg OD (treatment); 10mg OD (maintenance)",
+          "max_daily": "20mg",
+          "route": "PO",
+          "indication": "GORD, H. pylori eradication (replaces PPI in triple regimen)",
+          "black_box": "Limited long-term data"
+        },
+        {
+          "name": "Mesalazine Enema",
+          "class": "Topical 5-ASA",
+          "dose": "1-2g/100mL enema nocte",
+          "max_daily": "2g",
+          "route": "Enema",
+          "indication": "Left-sided UC, proctitis",
+          "black_box": "Hypersensitivity"
+        },
+        {
+          "name": "Hydrocortisone Enema",
+          "class": "Topical corticosteroid",
+          "dose": "100-125mg in 100mL nocte",
+          "max_daily": "125mg",
+          "route": "Enema",
+          "indication": "Proctosigmoiditis flare",
+          "black_box": "Systemic absorption with frequent use"
+        },
+        {
+          "name": "Budesonide Foam Enema",
+          "class": "Topical ICS",
+          "dose": "2mg foam OD-BD",
+          "max_daily": "4mg",
+          "route": "PR foam",
+          "indication": "Distal UC, proctitis",
+          "black_box": "Less systemic effect than hydrocortisone enema"
+        },
+        {
+          "name": "Eluxadoline",
+          "class": "Mixed mu/kappa agonist + delta antagonist",
+          "dose": "100mg BD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "IBS-D",
+          "black_box": "Pancreatitis (no gallbladder/alcohol excess), sphincter Oddi spasm"
+        },
+        {
+          "name": "Alosetron",
+          "class": "5-HT3 antagonist (GI)",
+          "dose": "0.5-1mg BD",
+          "max_daily": "2mg",
+          "route": "PO",
+          "indication": "Severe IBS-D (women only in UK/USA restricted)",
+          "black_box": "Ischaemic colitis, severe constipation"
+        },
+        {
+          "name": "Denosumab (GI-related bone)",
+          "class": "Anti-RANKL",
+          "dose": "60mg SC Q6M",
+          "max_daily": "60mg",
+          "route": "SC",
+          "indication": "Osteoporosis in IBD (on steroids)",
+          "black_box": "Hypocalcaemia"
+        },
+        {
+          "name": "Calprotectin (biomarker)",
+          "class": "Biomarker NOT drug",
+          "dose": "N/A",
+          "max_daily": "N/A",
+          "route": "Stool test",
+          "indication": "IBD monitoring, distinguishing IBD from IBS",
+          "black_box": "N/A"
+        },
+        {
+          "name": "Vedolizumab SC",
+          "class": "Anti-integrin SC form",
+          "dose": "108mg SC Q2W",
+          "max_daily": "108mg",
+          "route": "SC",
+          "indication": "UC, Crohn's maintenance after IV induction",
+          "black_box": "Same as IV form"
+        },
+        {
+          "name": "Natalizumab",
+          "class": "Anti-\u03b14 integrin",
+          "dose": "300mg IV Q4W",
+          "max_daily": "300mg",
+          "route": "IV",
+          "indication": "Crohn's (second-line, PML risk limits use)",
+          "black_box": "PML (JC virus - monthly monitoring required)"
+        },
+        {
+          "name": "Certolizumab (Crohn's)",
+          "class": "PEGylated anti-TNF",
+          "dose": "400mg SC at 0,2, 4wk then Q4W",
+          "max_daily": "Protocol",
+          "route": "SC",
+          "indication": "Crohn's (USA/EU)",
+          "black_box": "Infection, TB"
+        },
+        {
+          "name": "Cholestyramine (C. diff)",
+          "class": "Bile acid/toxin sequestrant",
+          "dose": "4g QDS",
+          "max_daily": "16g",
+          "route": "PO",
+          "indication": "Recurrent C. difficile adjunct",
+          "black_box": "Drug malabsorption"
+        },
+        {
+          "name": "Micafungin",
+          "class": "Echinocandin antifungal",
+          "dose": "100-150mg IV OD",
+          "max_daily": "150mg",
+          "route": "IV",
+          "indication": "Candida oesophagitis (severe), invasive candidiasis",
+          "black_box": "Hepatotoxicity"
+        },
+        {
+          "name": "Albumin (hypoalbuminaemia)",
+          "class": "Plasma protein",
+          "dose": "20-40g IV infusion",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Cirrhotic decompensation, SBP prophylaxis, large-volume paracentesis",
+          "black_box": "Volume overload"
+        },
+        {
+          "name": "Third-generation Cephalosporin (SBP)",
+          "class": "Beta-lactam antibiotic",
+          "dose": "Cefotaxime 2g TDS IV x5 days",
+          "max_daily": "12g",
+          "route": "IV",
+          "indication": "Spontaneous bacterial peritonitis",
+          "black_box": "C. difficile"
+        },
+        {
+          "name": "Norfloxacin (SBP prophylaxis)",
+          "class": "Fluoroquinolone",
+          "dose": "400mg OD",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "SBP primary prophylaxis in high-risk cirrhosis",
+          "black_box": "Tendonitis, QT prolongation"
+        },
+        {
+          "name": "Ciprofloxacin (SBP prophylaxis)",
+          "class": "Fluoroquinolone",
+          "dose": "500mg BD",
+          "max_daily": "1g",
+          "route": "PO",
+          "indication": "SBP secondary prophylaxis",
+          "black_box": "Tendon rupture, QT"
+        },
+        {
+          "name": "Zinc Acetate",
+          "class": "Trace element",
+          "dose": "150-300mg elemental zinc OD",
+          "max_daily": "300mg",
+          "route": "PO",
+          "indication": "Wilson's disease maintenance; zinc deficiency in cirrhosis",
+          "black_box": "None significant in therapeutic doses"
+        },
+        {
+          "name": "D-Penicillamine",
+          "class": "Copper chelator",
+          "dose": "750-1500mg/day in divided doses",
+          "max_daily": "2g",
+          "route": "PO",
+          "indication": "Wilson's disease (initial)",
+          "black_box": "Proteinuria, haematological toxicity, SLE-like"
+        },
+        {
+          "name": "Trientine",
+          "class": "Copper chelator",
+          "dose": "1.2-1.8g/day in divided doses",
+          "max_daily": "1.8g",
+          "route": "PO",
+          "indication": "Wilson's disease (d-penicillamine intolerant)",
+          "black_box": "Fewer side effects than d-penicillamine"
+        },
+        {
+          "name": "Sorafenib",
+          "class": "Multi-kinase inhibitor",
+          "dose": "400mg BD",
+          "max_daily": "800mg",
+          "route": "PO",
+          "indication": "Hepatocellular carcinoma (advanced)",
+          "black_box": "Hand-foot syndrome, hypertension, bleeding"
+        },
+        {
+          "name": "Lenvatinib",
+          "class": "Multi-kinase inhibitor",
+          "dose": "8-12mg OD (weight-based)",
+          "max_daily": "12mg",
+          "route": "PO",
+          "indication": "HCC first-line",
+          "black_box": "Hypertension, thrombotic events, fistula"
+        },
+        {
+          "name": "Atezolizumab + Bevacizumab",
+          "class": "PD-L1 + anti-VEGF",
+          "dose": "1200mg + 15mg/kg IV Q3W",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Advanced HCC (first line)",
+          "black_box": "Immune-related AEs, bleeding"
+        },
+        {
+          "name": "Nadolol",
+          "class": "Non-selective beta-blocker",
+          "dose": "40-240mg OD",
+          "max_daily": "240mg",
+          "route": "PO",
+          "indication": "Variceal prophylaxis (longer acting than propranolol)",
+          "black_box": "Bronchospasm, bradycardia"
+        }
+      ]
+    },
+    "endocrinology": {
+      "count": 10,
+      "drugs": [
+        {
+          "name": "Metformin",
+          "class": "Biguanide",
+          "dose": "500-1000mg BD",
+          "max_daily": "2550mg",
+          "route": "PO",
+          "indication": "Type 2 Diabetes",
+          "black_box": "Lactic acidosis, B12 deficiency"
+        },
+        {
+          "name": "Gliclazide",
+          "class": "Sulfonylurea",
+          "dose": "40-160mg BD",
+          "max_daily": "320mg",
+          "route": "PO",
+          "indication": "Type 2 Diabetes",
+          "black_box": "Hypoglycaemia, weight gain"
+        },
+        {
+          "name": "Insulin (Lispro/Aspart)",
+          "class": "Rapid-acting insulin",
+          "dose": "Variable (titrate to BG)",
+          "max_daily": "Variable",
+          "route": "SC",
+          "indication": "Diabetes mellitus",
+          "black_box": "Hypoglycaemia"
+        },
+        {
+          "name": "Insulin (Glargine/Detemir)",
+          "class": "Long-acting insulin",
+          "dose": "Variable (titrate to BG)",
+          "max_daily": "Variable",
+          "route": "SC",
+          "indication": "Diabetes mellitus",
+          "black_box": "Hypoglycaemia"
+        },
+        {
+          "name": "Levothyroxine",
+          "class": "Thyroid hormone",
+          "dose": "25-150mcg OD",
+          "max_daily": "300mcg",
+          "route": "PO",
+          "indication": "Hypothyroidism",
+          "black_box": "Heat intolerance, arrhythmia"
+        },
+        {
+          "name": "Hydrocortisone",
+          "class": "Glucocorticoid",
+          "dose": "15-30mg daily (divided)",
+          "max_daily": "Variable",
+          "route": "PO/IV",
+          "indication": "Adrenal insufficiency, anaphylaxis",
+          "black_box": "Adrenal crisis upon withdrawal"
+        },
+        {
+          "name": "Prednisolone",
+          "class": "Glucocorticoid",
+          "dose": "5-60mg daily",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "Inflammation, immunosuppression",
+          "black_box": "Cushingoid features, osteoporosis"
+        },
+        {
+          "name": "Dexamethasone",
+          "class": "Glucocorticoid",
+          "dose": "0.5-8mg daily; 6mg OD in COVID",
+          "max_daily": "20mg",
+          "route": "PO/IV",
+          "indication": "Cerebral oedema, inflammation, COVID-19",
+          "black_box": "Psychiatric disturbances"
+        },
+        {
+          "name": "Spironolactone (Endo)",
+          "class": "Aldosterone antagonist",
+          "dose": "100-200mg daily",
+          "max_daily": "400mg (Conn's)",
+          "route": "PO",
+          "indication": "Primary hyperaldosteronism, PCOS",
+          "black_box": "Hyperkalaemia"
+        },
+        {
+          "name": "Sitagliptin",
+          "class": "DPP-4 inhibitor",
+          "dose": "100mg OD",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "Type 2 Diabetes",
+          "black_box": "Pancreatitis risk"
+        }
+      ]
+    },
+    "respiratory": {
+      "count": 5,
+      "drugs": [
+        {
+          "name": "Salbutamol (Albuterol)",
+          "class": "SABA (Beta-2 agonist)",
+          "dose": "100-200mcg PRN; 2.5-5mg nebulised",
+          "max_daily": "20mg (nebulised load)",
+          "route": "Inhaled/Neb",
+          "indication": "Asthma/COPD exacerbation",
+          "black_box": "Tachycardia, hypokalaemia"
+        },
+        {
+          "name": "Ipratropium",
+          "class": "SAMA (Antimuscarinic)",
+          "dose": "20-40mcg TDS/QDS",
+          "max_daily": "320mcg",
+          "route": "Inhaled/Neb",
+          "indication": "Asthma/COPD",
+          "black_box": "Dry mouth, urinary retention"
+        },
+        {
+          "name": "Salmeterol",
+          "class": "LABA",
+          "dose": "50mcg BD",
+          "max_daily": "100mcg",
+          "route": "Inhaled",
+          "indication": "Maintenance asthma/COPD",
+          "black_box": "Asthma-related death (if used without ICS)"
+        },
+        {
+          "name": "Budesonide",
+          "class": "Inhaled Corticosteroid",
+          "dose": "100-800mcg BD",
+          "max_daily": "1600mcg",
+          "route": "Inhaled",
+          "indication": "Asthma maintenance",
+          "black_box": "Oral candidiasis"
+        },
+        {
+          "name": "Montelukast",
+          "class": "Leukotriene receptor antagonist",
+          "dose": "10mg OD (at night)",
+          "max_daily": "10mg",
+          "route": "PO",
+          "indication": "Asthm prophylaxis",
+          "black_box": "Neuropsychiatric events (suicidal ideation)"
+        }
+      ]
+    },
+    "psychiatry": {
+      "count": 10,
+      "drugs": [
+        {
+          "name": "Fluoxetine",
+          "class": "SSRI",
+          "dose": "20-60mg OD",
+          "max_daily": "80mg",
+          "route": "PO",
+          "indication": "Depression, OCD, Bulimia",
+          "black_box": "Increased suicidal risk in children/young adults"
+        },
+        {
+          "name": "Sertraline",
+          "class": "SSRI",
+          "dose": "50-200mg OD",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Depression, GAD, PTSD",
+          "black_box": "Suicidality, Serotonin Syndrome"
+        },
+        {
+          "name": "Haloperidol",
+          "class": "Typical Antipsychotic",
+          "dose": "0.5-5mg BD/TDS",
+          "max_daily": "30mg",
+          "route": "PO/IM/IV",
+          "indication": "Schizophrenia, Acute psychosis, Delirium",
+          "black_box": "Extrapyramidal symptoms, QT prolongation"
+        },
+        {
+          "name": "Risperidone",
+          "class": "Atypical Antipsychotic",
+          "dose": "1-6mg daily",
+          "max_daily": "16mg",
+          "route": "PO",
+          "indication": "Schizophrenia, Bipolar mania",
+          "black_box": "Metabolic syndrome, Weight gain"
+        },
+        {
+          "name": "Lithium Carbonate",
+          "class": "Mood stabiliser",
+          "dose": "400-1200mg daily (titrate to level)",
+          "max_daily": "Variable",
+          "route": "PO",
+          "indication": "Bipolar disorder",
+          "black_box": "Lithium toxicity (narrow range), Renal/Thyroid damage"
+        },
+        {
+          "name": "Lorazepam",
+          "class": "Benzodiazepine",
+          "dose": "1-4mg daily (divided)",
+          "max_daily": "10mg",
+          "route": "PO/IV/IM",
+          "indication": "Anxiety, Status epilepticus, Sedation",
+          "black_box": "Respiratory depression, Addiction"
+        },
+        {
+          "name": "Diazepam",
+          "class": "Benzodiazepine",
+          "dose": "2-10mg BD/QDS",
+          "max_daily": "40mg",
+          "route": "PO/IV",
+          "indication": "Anxiety, Alcohol withdrawal, Muscle spasm",
+          "black_box": "Abuse potential, long half-life"
+        },
+        {
+          "name": "Olanzapine",
+          "class": "Atypical Antipsychotic",
+          "dose": "5-20mg daily",
+          "max_daily": "20mg",
+          "route": "PO/IM",
+          "indication": "Bipolar, Schizophrenia",
+          "black_box": "Severe weight gain, Diabetes risk"
+        },
+        {
+          "name": "Citalopram",
+          "class": "SSRI",
+          "dose": "10-40mg OD",
+          "max_daily": "40mg",
+          "route": "PO",
+          "indication": "Depression",
+          "black_box": "Dose-dependent QT prolongation"
+        },
+        {
+          "name": "Quetiapine",
+          "class": "Atypical Antipsychotic",
+          "dose": "25-400mg BD",
+          "max_daily": "800mg",
+          "route": "PO",
+          "indication": "Schizophrenia, Bipolar, Depression adjunct",
+          "black_box": "Sedation, metabolic side effects"
+        }
+      ]
+    },
+    "toxicology": {
+      "count": 9,
+      "drugs": [
+        {
+          "name": "N-acetylcysteine",
+          "class": "Antidote",
+          "dose": "150/50/100 mg/kg protocol",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Paracetamol overdose"
+        },
+        {
+          "name": "Naloxone",
+          "class": "Opioid antagonist",
+          "dose": "0.4-2mg IV/IM",
+          "max_daily": "10mg (dx)",
+          "route": "IV/IM/Nasal",
+          "indication": "Opioid overdose"
+        },
+        {
+          "name": "Flumazenil",
+          "class": "Benzo antagonist",
+          "dose": "200mcg IV",
+          "max_daily": "3mg",
+          "route": "IV",
+          "indication": "Benzodiazepine reversal"
+        },
+        {
+          "name": "Fomepizole",
+          "class": "ADH inhibitor",
+          "dose": "15mg/kg load",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Methanol/Ethylene glycol overdose"
+        },
+        {
+          "name": "Digoxin Immune Fab",
+          "class": "Antidote",
+          "dose": "Vial-based",
+          "max_daily": "N/A",
+          "route": "IV",
+          "indication": "Digoxin toxicity"
+        },
+        {
+          "name": "Pralidoxime",
+          "class": "Cholinesterase reactivator",
+          "dose": "1-2g IV",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Organophosphate poisoning"
+        },
+        {
+          "name": "Physostigmine",
+          "class": "Cholinesterase inhibitor",
+          "dose": "0.5-2mg IV",
+          "max_daily": "2mg",
+          "route": "IV",
+          "indication": "Anticholinergic poisoning"
+        },
+        {
+          "name": "Atropine",
+          "class": "Muscarinic antagonist",
+          "dose": "2-5mg IV (poisoning)",
+          "max_daily": "Titrate",
+          "route": "IV",
+          "indication": "Organophosphate/Bradycardia"
+        },
+        {
+          "name": "Hydroxocobalamin",
+          "class": "Cyanide antidote",
+          "dose": "5g IV",
+          "max_daily": "10g",
+          "route": "IV",
+          "indication": "Cyanide poisoning"
+        }
+      ]
+    },
+    "oncology": {
+      "count": 11,
+      "drugs": [
+        {
+          "name": "Methotrexate (Onco)",
+          "class": "Antimetabolite",
+          "dose": "High-dose protocol",
+          "max_daily": "N/A",
+          "route": "IV/IT",
+          "indication": "ALL, Lymphoma"
+        },
+        {
+          "name": "Cyclophosphamide",
+          "class": "Alkylating agent",
+          "dose": "500-1500 mg/m2",
+          "max_daily": "N/A",
+          "route": "IV/PO",
+          "indication": "Lymphoma, Breast cancer"
+        },
+        {
+          "name": "Doxorubicin",
+          "class": "Anthracycline",
+          "dose": "60-75 mg/m2",
+          "max_daily": "N/A",
+          "route": "IV",
+          "indication": "Sarcoma, Breast CA"
+        },
+        {
+          "name": "Vincristine",
+          "class": "Vinca alkaloid",
+          "dose": "1.4 mg/m2 (max 2mg)",
+          "max_daily": "2mg",
+          "route": "IV ONLY",
+          "indication": "Leukaemia"
+        },
+        {
+          "name": "5-Fluorouracil",
+          "class": "Antimetabolite",
+          "dose": "Infusion protocol",
+          "max_daily": "N/A",
+          "route": "IV",
+          "indication": "Colorectal CA"
+        },
+        {
+          "name": "Pembrolizumab",
+          "class": "PD-1 inhibitor",
+          "dose": "200mg Q3W",
+          "max_daily": "N/A",
+          "route": "IV",
+          "indication": "Melanoma, Lung CA"
+        },
+        {
+          "name": "Rituximab",
+          "class": "Anti-CD20",
+          "dose": "375 mg/m2",
+          "max_daily": "N/A",
+          "route": "IV",
+          "indication": "Lymphoma, RA"
+        },
+        {
+          "name": "Tamoxifen",
+          "class": "SERM",
+          "dose": "20mg OD",
+          "max_daily": "40mg",
+          "route": "PO",
+          "indication": "Breast CA"
+        },
+        {
+          "name": "Anastrozole",
+          "class": "Aromatase inhibitor",
+          "dose": "1mg OD",
+          "max_daily": "1mg",
+          "route": "PO",
+          "indication": "Breast CA"
+        },
+        {
+          "name": "Imatinib",
+          "class": "TKI",
+          "dose": "400-600mg OD",
+          "max_daily": "800mg",
+          "route": "PO",
+          "indication": "CML"
+        },
+        {
+          "name": "Dexamethasone (Onco)",
+          "class": "Steroid",
+          "dose": "4-20mg daily",
+          "max_daily": "40mg",
+          "route": "PO/IV",
+          "indication": "Brain oedema, MM"
+        }
+      ]
+    },
+    "obgyn": {
+      "count": 7,
+      "drugs": [
+        {
+          "name": "Oxytocin",
+          "class": "Hormone",
+          "dose": "5-10 units",
+          "max_daily": "Protocol",
+          "route": "IV/IM",
+          "indication": "PPH, Labor induction"
+        },
+        {
+          "name": "Magnesium Sulfate (OB)",
+          "class": "Anticonvulsant",
+          "dose": "4g IV load",
+          "max_daily": "Protocol",
+          "route": "IV",
+          "indication": "Eclampsia"
+        },
+        {
+          "name": "Misoprostol",
+          "class": "Prostglandin E1",
+          "dose": "200-800mcg",
+          "max_daily": "N/A",
+          "route": "SL/Vag/Rect",
+          "indication": "PPH"
+        },
+        {
+          "name": "Mifepristone",
+          "class": "Antiprogestogen",
+          "dose": "200mg PO",
+          "max_daily": "200mg",
+          "route": "PO",
+          "indication": "Medical abortion"
+        },
+        {
+          "name": "Ergometrine",
+          "class": "Ergot",
+          "dose": "250-500mcg IM",
+          "max_daily": "1.25mg",
+          "route": "IM/IV",
+          "indication": "PPH"
+        },
+        {
+          "name": "Terbutaline (OB)",
+          "class": "Beta-2 agonist",
+          "dose": "250mcg SC",
+          "max_daily": "N/A",
+          "route": "SC",
+          "indication": "Tocolysis"
+        },
+        {
+          "name": "Labetalol (OB)",
+          "class": "Alpha/Beta blocker",
+          "dose": "100-400mg BD",
+          "max_daily": "2400mg",
+          "route": "PO/IV",
+          "indication": "Pre-eclampsia HTN"
+        }
+      ]
+    },
+    "rheumatology": {
+      "count": 8,
+      "drugs": [
+        {
+          "name": "Methotrexate (RA)",
+          "class": "DMARD",
+          "dose": "7.5-25mg WEEKLY",
+          "max_daily": "25mg WEEKLY",
+          "route": "PO/SC",
+          "indication": "RA, Psoriasis"
+        },
+        {
+          "name": "Sulfasalazine",
+          "class": "DMARD",
+          "dose": "500-1000mg BD",
+          "max_daily": "3g",
+          "route": "PO",
+          "indication": "RA, IBD"
+        },
+        {
+          "name": "Hydroxychloroquine",
+          "class": "DMARD",
+          "dose": "200-400mg OD",
+          "max_daily": "400mg",
+          "route": "PO",
+          "indication": "SLE, RA"
+        },
+        {
+          "name": "Adalimumab",
+          "class": "TNF inhibitor",
+          "dose": "40mg SC Q2W",
+          "max_daily": "N/A",
+          "route": "SC",
+          "indication": "RA, Crohn\u2019s"
+        },
+        {
+          "name": "Infliximab",
+          "class": "TNF inhibitor",
+          "dose": "3-5mg/kg",
+          "max_daily": "N/A",
+          "route": "IV",
+          "indication": "IBD, RA"
+        },
+        {
+          "name": "Leflunomide",
+          "class": "DMARD",
+          "dose": "10-20mg OD",
+          "max_daily": "20mg",
+          "route": "PO",
+          "indication": "RA"
+        },
+        {
+          "name": "Allopurinol",
+          "class": "Xantin oxidase inh",
+          "dose": "100-300mg OD",
+          "max_daily": "900mg",
+          "route": "PO",
+          "indication": "Gout prevention"
+        },
+        {
+          "name": "Colchicine (Gout)",
+          "class": "Anti-inflammatory",
+          "dose": "500mcg BD/TDS",
+          "max_daily": "2mg (acute)",
+          "route": "PO",
+          "indication": "Gout flare"
+        }
+      ]
+    },
+    "urology": {
+      "count": 5,
+      "drugs": [
+        {
+          "name": "Tamsulosin",
+          "class": "Alpha-1 blocker",
+          "dose": "400mcg OD",
+          "max_daily": "400mcg",
+          "route": "PO",
+          "indication": "BPH"
+        },
+        {
+          "name": "Finasteride",
+          "class": "5-alpha reductase inh",
+          "dose": "5mg OD",
+          "max_daily": "5mg",
+          "route": "PO",
+          "indication": "BPH"
+        },
+        {
+          "name": "Oxybutynin",
+          "class": "Anticholinergic",
+          "dose": "2.5-5mg TDS",
+          "max_daily": "20mg",
+          "route": "PO",
+          "indication": "OAB"
+        },
+        {
+          "name": "Mirabegron",
+          "class": "Beta-3 agonist",
+          "dose": "25-50mg OD",
+          "max_daily": "50mg",
+          "route": "PO",
+          "indication": "OAB"
+        },
+        {
+          "name": "Sildenafil (ED)",
+          "class": "PDE5 inhibitor",
+          "dose": "50mg PRN",
+          "max_daily": "100mg",
+          "route": "PO",
+          "indication": "ED"
+        }
+      ]
+    },
+    "derm_ophtho": {
+      "count": 5,
+      "drugs": [
+        {
+          "name": "Isotretinoin",
+          "class": "Retinoid",
+          "dose": "0.5-1 mg/kg daily",
+          "max_daily": "Protocol",
+          "route": "PO",
+          "indication": "Severe Acne"
+        },
+        {
+          "name": "Permethrin",
+          "class": "Scabicide",
+          "dose": "5% cream apply once",
+          "max_daily": "N/A",
+          "route": "Topical",
+          "indication": "Scabies"
+        },
+        {
+          "name": "Latanoprost",
+          "class": "Prostaglandin analogue",
+          "dose": "One drop OD ON",
+          "max_daily": "1 drop",
+          "route": "Ophthalmic",
+          "indication": "Glaucoma"
+        },
+        {
+          "name": "Timolol (Eye)",
+          "class": "Beta-blocker",
+          "dose": "One drop BD",
+          "max_daily": "2 drops",
+          "route": "Ophthalmic",
+          "indication": "Glaucoma"
+        },
+        {
+          "name": "Acyclovir (Eye)",
+          "class": "Antiviral",
+          "dose": "3% ointment 5x daily",
+          "max_daily": "5 times",
+          "route": "Ophthalmic",
+          "indication": "HSE Keratitis"
+        }
+      ]
+    }
+  }
+}

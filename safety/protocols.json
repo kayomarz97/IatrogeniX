@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "source": "Oxford Handbook of Critical Care (4th Ed)",
+    "description": "Critical ICU protocols for safety validation.",
+    "version": "1.0"
+  },
+  "protocols": [
+    {
+      "name": "ACLS Cardiac Arrest",
+      "keywords": ["cardiac arrest", "asystole", "PEA", "ventricular fibrillation", "VF", "VT"],
+      "steps": [
+        "Start CPR (30:2), give oxygen, attach monitor/defibrillator",
+        "Check rhythm: Shockable (VF/pVT) vs Non-shockable (PEA/Asystole)",
+        "Shockable: Shock, CPR 2min, Pulse check, Shock, CPR 2min + Adrenaline 1mg",
+        "Non-shockable: Adrenaline 1mg immediately, CPR 2min, check rhythm",
+        "Consider reversible causes (H's and T's)"
+      ],
+      "critical_drugs": ["Epinephrine", "Amiodarone", "Lidocaine", "Magnesium"]
+    },
+    {
+      "name": "Anaphylaxis",
+      "keywords": ["anaphylaxis", "allergic reaction", "hypersensitivity"],
+      "steps": [
+        "Remove trigger, call for help",
+        "IM Adrenaline 0.5mg (1:1000) into lateral thigh",
+        "High-flow oxygen, fluid bolus (500-1000ml)",
+        "Repeat IM Adrenaline every 5 mins if no improvement",
+        "IV Chlorphenamine 10mg and IV Hydrocortisone 200mg"
+      ],
+      "critical_drugs": ["Epinephrine", "Chlorphenamine", "Hydrocortisone", "Fluids"]
+    },
+    {
+      "name": "Sepsis Bundle (1-Hour)",
+      "keywords": ["sepsis", "septic shock", "SIRS"],
+      "steps": [
+        "Measure lactate level",
+        "Obtain blood cultures prior to antibiotics",
+        "Administer broad-spectrum antibiotics",
+        "Rapid administration of 30mL/kg crystalloid for hypotension/lactate ≥4",
+        "Apply vasopressors if hypotensive during/after fluid resuscitation (target MAP ≥65)"
+      ],
+      "critical_drugs": ["Broad-spectrum antibiotics", "Norepinephrine", "Crystalloid"]
+    },
+    {
+      "name": "Acute Coronary Syndrome (STEMI)",
+      "keywords": ["STEMI", "myocardial infarction", "ACS", "chest pain"],
+      "steps": [
+        "12-leaf ECG within 10 mins",
+        "Aspirin 300mg + P2Y12 inhibitor (Ticagrelor 180mg)",
+        "Assess for primary PCI (target door-to-balloon <90 mins)",
+        "If PCI >120 mins wait, consider fibrinolysis",
+        "Unfractionated heparin or Enoxaparin"
+      ],
+      "critical_drugs": ["Aspirin", "Ticagrelor", "Clopidogrel", "Heparin", "Alteplase"]
+    },
+    {
+      "name": "Status Epilepticus",
+      "keywords": ["status epilepticus", "seizure", "convulsion"],
+      "steps": [
+        "Airway assessment, oxygen, check glucose",
+        "IV Lorazepam 4mg (repeat once after 10-20 min if no effect)",
+        "If IV access unavailable: Buccal Midazolam 10mg or Rectal Diazepam 10mg",
+        "Second line: IV Phenytoin 15-20mg/kg or Levetiracetam 60mg/kg",
+        "Third line: General anesthesia (Propofol/Thiopental)"
+      ],
+      "critical_drugs": ["Lorazepam", "Midazolam", "Phenytoin", "Levetiracetam", "Propofol"]
+    },
+    {
+      "name": "Diabetic Ketoacidosis (DKA)",
+      "keywords": ["DKA", "diabetic ketoacidosis", "hyperglycemia"],
+      "steps": [
+        "Fluid replacement: 1L 0.9% NaCl over 1st hour",
+        "Insulin: Fixed rate infusion 0.1 units/kg/hr",
+        "Potassium replacement: Mandatory if K < 5.5 mmol/L",
+        "Continue long-acting insulin, stop short-acting",
+        "Target glucose fall 3 mmol/L/hr and ketone fall 0.5 mmol/L/hr"
+      ],
+      "critical_drugs": ["0.9% Sodium Chloride", "Actrapid Insulin", "Potassium Chloride"]
+    },
+    {
+      "name": "Severe Hyperkalemia",
+      "keywords": ["hyperkalemia", "high potassium"],
+      "steps": [
+        "10mL 10% Calcium Gluconate IV (cardiac protection)",
+        "Insulin-Glucose: 10 units Actrapid in 50mL 50% Dextrose over 15 min",
+        "Nebulized Salbutamol 10-20mg",
+        "Check for causes (meds, renal failure)",
+        "Consider renal replacement therapy if refractory"
+      ],
+      "critical_drugs": ["Calcium Gluconate", "Insulin", "Dextrose", "Salbutamol"]
+    },
+    {
+      "name": "Acute Asthma (Severe)",
+      "keywords": ["asthma", "bronchospasm", "wheeze"],
+      "steps": [
+        "High-flow oxygen (target 94-98%)",
+        "Salbutamol nebs 5mg + Ipratropium nebs 0.5mg",
+        "Steroids: Prednisolone 40mg PO or Hydrocortisone 100mg IV",
+        "Consider IV Magnesium Sulfate 2g if life-threatening",
+        "Escalate to ICU if tiring or rising pCO2"
+      ],
+      "critical_drugs": ["Salbutamol", "Ipratropium", "Prednisolone", "Magnesium Sulfate"]
+    },
+    {
+      "name": "Acute Pulmonary Edema",
+      "keywords": ["pulmonary edema", "heart failure", "LHF"],
+      "steps": [
+        "Sit upright, high-flow oxygen",
+        "GTN spray or IV infusion (if SBP >90)",
+        "CPAP (starting 5-10 cmH2O)",
+        "IV Furosemide 40-80mg",
+        "Identify and treat underlying cause (AF, MI, HTN)"
+      ],
+      "critical_drugs": ["Furosemide", "GTN", "Morphine"]
+    },
+    {
+      "name": "Acute Meningitis",
+      "keywords": ["meningitis", "headache", "neck stiffness", "purpuric rash"],
+      "steps": [
+        "Immediate BC and LP (if no contraindications)",
+        "Ceftriaxone 2g IV BD",
+        "Dexamethasone 10mg IV Q6H (start with or before antibiotics)",
+        "Add Ampicillin if Listeria suspected (elderly/immunosuppressed)",
+        "Contact tracing for meningococcal cases"
+      ],
+      "critical_drugs": ["Ceftriaxone", "Dexamethasone", "Vancomycin", "Acyclovir"]
+    }
+  ]
+}

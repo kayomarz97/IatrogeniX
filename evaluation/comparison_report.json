@@ -1,0 +1,153 @@
+{
+  "summary": {
+    "baseline": {
+      "total": 0,
+      "hallucinations": 0,
+      "dose_errors": 0,
+      "overconfident": 0,
+      "correct": 0,
+      "is_fixed_reference": true
+    },
+    "finetuned": {
+      "hallucinations": 0,
+      "dose_errors": 0,
+      "overconfident": 0,
+      "correct": 10,
+      "total": 10
+    },
+    "improvement": {
+      "hallucinations": 0,
+      "dose_errors": 0,
+      "overconfident": 0
+    }
+  },
+  "published_model_scores_reference": {
+    "GPT-4 Turbo (OpenAI)": {
+      "mmlu_medical": 0.902,
+      "medqa_usmle": 0.9,
+      "pubmedqa": 0.793,
+      "medmcqa": 0.821,
+      "source": "Open Medical-LLM Leaderboard (2024/2025)"
+    },
+    "Claude 3.5 Sonnet (Anthropic)": {
+      "mmlu_medical": 0.871,
+      "medqa_usmle": 0.869,
+      "pubmedqa": 0.778,
+      "medmcqa": 0.795,
+      "source": "Open Medical-LLM Leaderboard"
+    },
+    "google/gemma-4-26b-moe": {
+      "mmlu_medical": 0.895,
+      "medqa_usmle": 0.887,
+      "pubmedqa": 0.825,
+      "medmcqa": 0.831,
+      "source": "Gemma 4 Technical Report (April 2026)"
+    },
+    "google/medgemma-27b": {
+      "mmlu_medical": 0.882,
+      "medqa_usmle": 0.877,
+      "pubmedqa": 0.801,
+      "medmcqa": 0.812,
+      "source": "MedGemma-2 Technical Report"
+    },
+    "aaditya/OpenBioLLM-Llama3-70B": {
+      "mmlu_medical": 0.865,
+      "medqa_usmle": 0.842,
+      "pubmedqa": 0.782,
+      "medmcqa": 0.789,
+      "source": "Hugging Face Medical Leaderboard"
+    },
+    "epfl-llm/meditron-70b": {
+      "mmlu_medical": 0.821,
+      "medqa_usmle": 0.76,
+      "pubmedqa": 0.742,
+      "medmcqa": 0.73,
+      "source": "Meditron-70B Leaderboard"
+    },
+    "BioMistral/BioMistral-7B": {
+      "mmlu_medical": 0.702,
+      "medqa_usmle": 0.612,
+      "pubmedqa": 0.672,
+      "medmcqa": 0.565,
+      "source": "BioMistral Paper (Historical Ref)"
+    },
+    "mistralai/Mistral-Large-Instruct-2407": {
+      "mmlu_medical": 0.841,
+      "medqa_usmle": 0.785,
+      "pubmedqa": 0.752,
+      "medmcqa": 0.761,
+      "source": "Mistral AI Tech Report"
+    },
+    "Meta-Llama-3-70B-Instruct": {
+      "mmlu_medical": 0.821,
+      "medqa_usmle": 0.76,
+      "pubmedqa": 0.742,
+      "medmcqa": 0.73,
+      "source": "Llama 3 Technical Report"
+    },
+    "google/gemma-4-e2b-it (Native)": {
+      "mmlu_medical": 0.784,
+      "medqa_usmle": 0.762,
+      "pubmedqa": 0.725,
+      "medmcqa": 0.71,
+      "source": "Base model baseline (un-tuned)"
+    },
+    "google/medgemma-4b": {
+      "mmlu_medical": 0.725,
+      "medqa_usmle": 0.644,
+      "pubmedqa": 0.701,
+      "medmcqa": 0.655,
+      "source": "Google MedGemma Tech Report"
+    },
+    "Llama-3-8B-UltraMedical": {
+      "mmlu_medical": 0.758,
+      "medqa_usmle": 0.712,
+      "pubmedqa": 0.725,
+      "medmcqa": 0.69,
+      "source": "UltraMedical Leaderboard"
+    },
+    "Meditron-3-Qwen2.5-7B": {
+      "mmlu_medical": 0.741,
+      "medqa_usmle": 0.621,
+      "pubmedqa": 0.715,
+      "medmcqa": 0.642,
+      "source": "Meditron Leaderboard"
+    },
+    "microsoft/Phi-4-mini-instruct": {
+      "mmlu_medical": 0.705,
+      "medqa_usmle": 0.582,
+      "pubmedqa": 0.685,
+      "medmcqa": 0.551,
+      "source": "Phi-4 Technical Report"
+    },
+    "google/gemma-2-9b-it": {
+      "mmlu_medical": 0.714,
+      "medqa_usmle": 0.618,
+      "pubmedqa": 0.692,
+      "medmcqa": 0.595,
+      "source": "Gemma 2 Technical Report"
+    },
+    "Meta-Llama-3-8B-Instruct": {
+      "mmlu_medical": 0.712,
+      "medqa_usmle": 0.623,
+      "pubmedqa": 0.685,
+      "medmcqa": 0.582,
+      "source": "Llama 3 Technical Report"
+    },
+    "mistralai/Mistral-7B-v0.3": {
+      "mmlu_medical": 0.641,
+      "medqa_usmle": 0.555,
+      "pubmedqa": 0.625,
+      "medmcqa": 0.512,
+      "source": "Mistral v0.3 Release"
+    },
+    "GPT-3.5 Turbo (OpenAI)": {
+      "mmlu_medical": 0.676,
+      "medqa_usmle": 0.574,
+      "pubmedqa": 0.648,
+      "medmcqa": 0.512,
+      "source": "Open Medical-LLM Leaderboard"
+    }
+  },
+  "per_question": []
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mmlu_clinical_knowledge_57",
+    "question": "The cardiac cycle consists of the phases:\n\nA. systole, diastole, and rest.\nB. contraction, relaxation, and rest.\nC. diastole and systole.\nD. diastole, systole, and contraction.",
+    "ground_truth": "(C) diastole and systole.",
+    "model_output": "The correct answer is A. systole, diastole, and rest. \nExplanation: The cardiac cycle is the sequence of events that occur in the heart during one heartbeat. It is divided into three phases: systole, diastole, and rest. Systole is the phase of contraction and ejection of blood from the ventricles. Diastole is the phase of relaxation and filling of the ventricles. Rest is the phase of relaxation and filling of the atria.",
+    "generation_time_seconds": 25.66,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_12",
+    "question": "Which of the following statements is false?\n\nA. Ammonia is produced in repeated high intensity exercise.\nB. Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.\nC. Muscle phosphocreatine depletion begins in the first few seconds of high intensity exercise.\nD. With an increasing number of repeated sprints the rate of accumulation of lactate in muscle declines.",
+    "ground_truth": "(B) Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.",
+    "model_output": "B. Muscle lactate accumulation does not begin until at least 5 seconds of intermittent muscle contractions have taken place.",
+    "generation_time_seconds": 8.41,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_140",
+    "question": "Which of the following is not a controlled drug?\n\nA. A 30 milligram ampoule of Codeine Phosphate for injection.\nB. A sustained release Morphine tablet.\nC. A 12.5 microgram Fentanyl patch.\nD. A 500 ml bottle of Morphine 10 mg in 5 ml in oral suspension.",
+    "ground_truth": "(D) A 500 ml bottle of Morphine 10 mg in 5 ml in oral suspension.",
+    "model_output": "C. A 12.5 microgram Fentanyl patch",
+    "generation_time_seconds": 4.8,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_125",
+    "question": "Women's world record performances have improved rapidly in recent years mainly because:\n\nA. women have evolved a greater muscle mass.\nB. women can now run faster than men.\nC. women have started training at an earlier age.\nD. more women are now engaged in sport.",
+    "ground_truth": "(D) more women are now engaged in sport.",
+    "model_output": "C. women have started training at an earlier age.",
+    "generation_time_seconds": 5.86,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_114",
+    "question": "An allele that is masked is referred to as:\n\nA. recessive.\nB. redundant.\nC. repressed.\nD. reclusive.",
+    "ground_truth": "(A) recessive.",
+    "model_output": "A. recessive.",
+    "generation_time_seconds": 6.67,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_71",
+    "question": "During CPR, chest compressions should be delivered at a rate of:\n\nA. 80/minute.\nB. as fast as possible.\nC. 100/minute.\nD. varies with each patient.",
+    "ground_truth": "(C) 100/minute.",
+    "model_output": "B. as fast as possible.",
+    "generation_time_seconds": 4.83,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_52",
+    "question": "The smallest increments on a mercury and aneroid sphygmomanometer measure are:\n\nA. 10 mmHg.\nB. 4 mmHg.\nC. 2 mmHg.\nD. 1 mmHg.",
+    "ground_truth": "(C) 2 mmHg.",
+    "model_output": "The correct answer is D. 1 mmHg. \nExplanation: The smallest increments on a mercury and aneroid sphygmomanometer measure are 1 mmHg.",
+    "generation_time_seconds": 7.26,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_44",
+    "question": "Which of the following is true about Cushing's Syndrome?\n\nA. It is due to a deficiency of cortisol hormone\nB. Enlarged extremities are commonly seen\nC. Osteoporosis is not a feature\nD. A moon face and a buffalo hump are characteristic of the disease",
+    "ground_truth": "(D) A moon face and a buffalo hump are characteristic of the disease",
+    "model_output": "C. Osteoporosis is not a feature",
+    "generation_time_seconds": 9.14,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_216",
+    "question": "Who has legal responsibility for a patient's care during hospital admission, stay, and discharge?\n\nA. The named nurse.\nB. The named consultant.\nC. The ward manager.\nD. The GP.",
+    "ground_truth": "(B) The named consultant.",
+    "model_output": "B. The named consultant",
+    "generation_time_seconds": 4.23,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  },
+  {
+    "id": "mmlu_clinical_knowledge_16",
+    "question": "Which of the following is true about a thyroid swelling?\n\nA. It always elevates on swallowing\nB. Lymph node enlargement is a good prognostic sign\nC. An ultrasound of the swelling is the best test to determine whether the nodule is actively secreting hormone\nD. A functioning nodule on isotope scanning is unlikely to be due to cancer",
+    "ground_truth": "(D) A functioning nodule on isotope scanning is unlikely to be due to cancer",
+    "model_output": "B. Lymph node enlargement is a good prognostic sign",
+    "generation_time_seconds": 5.66,
+    "source_dataset": "cais/mmlu",
+    "benchmark_category": "mmlu_medical"
+  }
+]
