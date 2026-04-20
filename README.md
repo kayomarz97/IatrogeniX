@@ -1,3 +1,41 @@
+---
+license: apache-2.0
+language:
+- en
+pipeline_tag: text-generation
+tags:
+- medical
+- clinical
+- healthcare
+- safety
+- question-answering
+- gemma
+- gguf
+- llama-cpp
+- fine-tuned
+- clinical-nlp
+- drug-safety
+- hallucination-detection
+base_model:
+- google/gemma-4-E2B-it
+model-index:
+- name: IatrogeniX
+  results:
+  - task:
+      type: text-generation
+      name: Medical MCQ (MedQA-GB)
+    metrics:
+    - type: accuracy
+      name: Semantic Accuracy (cosine ≥0.6, all-MiniLM-L6-v2)
+      value: 51.4
+    - type: accuracy
+      name: Safety Pass Rate
+      value: 99.8
+    - type: accuracy
+      name: Professionalism
+      value: 100.0
+---
+
 # 🏥 IatrogeniX: Clinical AI Safety Layer
 **Official Submission for the Kaggle "Gemma 4 Good" Hackathon**
 
