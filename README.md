@@ -23,17 +23,19 @@ model-index:
   results:
   - task:
       type: text-generation
-      name: Medical MCQ (MedQA-GB)
+    dataset:
+      name: MedQA-GB
+      type: medqa-gb
     metrics:
     - type: accuracy
-      name: Semantic Accuracy (cosine ≥0.6, all-MiniLM-L6-v2)
-      value: 51.4
+      name: Semantic Accuracy (cosine ≥0.6)
+      value: 0.514
     - type: accuracy
       name: Safety Pass Rate
-      value: 99.8
+      value: 0.998
     - type: accuracy
       name: Professionalism
-      value: 100.0
+      value: 1.0
 ---
 
 # 🏥 IatrogeniX: Clinical AI Safety Layer
