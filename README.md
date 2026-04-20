@@ -3,6 +3,8 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Model: Gemma 4 E2B](https://img.shields.io/badge/Model-Gemma%204%20E2B-orange.svg)](https://huggingface.co/google)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-kayomarz97%2FIatrogeniX-yellow.svg)](https://huggingface.co/kayomarz97/IatrogeniX)
+[![GitHub](https://img.shields.io/badge/GitHub-kayomarz97%2FIatrogeniX-black.svg)](https://github.com/kayomarz97/IatrogeniX)
 
 > **"Clinical AI shouldn't just be smart; it must be predictably safe."**
 

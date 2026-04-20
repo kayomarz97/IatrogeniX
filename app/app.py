@@ -13,7 +13,7 @@ from safety.validator import SafetyValidator
 
 # ── Config ────────────────────────────────────────────────────────────────────
 MODEL_PATH = os.environ.get("IATROGENIX_MODEL", "models/iatrogenix-q5_k_m.gguf")
-GGUF_URL = "https://huggingface.co/your-username/IatrogeniX/resolve/main/models/iatrogenix-q5_k_m.gguf"
+GGUF_URL = "https://huggingface.co/kayomarz97/IatrogeniX/resolve/main/iatrogenix-q5_k_m.gguf"
 
 # ── Model Loader ──────────────────────────────────────────────────────────────
 _llm = None
