@@ -17,8 +17,9 @@ models/*.safetensors
 models/*.pt
 
 # ── Secrets & Credentials ─────────────────────────────────────
-# Training script contains hardcoded HF API token — excluded until token is moved to env
+# Training scripts contain hardcoded HF API token — excluded until token is moved to env
 training/prepare_data.py
+training/train.py
 .env
 .env.*
 *.key
