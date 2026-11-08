@@ -6,164 +6,90 @@ pipeline_tag: text-generation
 tags:
 - medical
 - clinical
-- healthcare
 - safety
-- question-answering
 - gemma
 - gguf
 - llama-cpp
-- fine-tuned
-- clinical-nlp
-- drug-safety
-- hallucination-detection
 base_model:
 - google/gemma-4-E2B-it
-model-index:
-- name: IatrogeniX
-  results:
-  - task:
-      type: text-generation
-    dataset:
-      name: MedQA-GB
-      type: medqa-gb
-    metrics:
-    - type: accuracy
-      name: Semantic Accuracy (cosine ≥0.6)
-      value: 0.514
-    - type: accuracy
-      name: Safety Pass Rate
-      value: 0.998
-    - type: accuracy
-      name: Professionalism
-      value: 1.0
 ---
 
-# 🏥 IatrogeniX: Clinical AI Safety Layer
-**Official Submission for the Kaggle "Gemma 4 Good" Hackathon**
+# IatrogeniX
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Model: Gemma 4 E2B](https://img.shields.io/badge/Model-Gemma%204%20E2B-orange.svg)](https://huggingface.co/google)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-kayomarz97%2FIatrogeniX-yellow.svg)](https://huggingface.co/kayomarz97/IatrogeniX)
-[![GitHub](https://img.shields.io/badge/GitHub-kayomarz97%2FIatrogeniX-black.svg)](https://github.com/kayomarz97/IatrogeniX)
+A medical language-model research project combining a Gemma-based fine-tune, local GGUF inference and a deterministic output validator. Built with AI assistance for the Kaggle “Gemma 4 Good” hackathon.
 
-> **"Clinical AI shouldn't just be smart; it must be predictably safe."**
+[Model artifact](https://huggingface.co/kayomarz97/IatrogeniX) · [Four-way ablation](docs/ablation_study.md) · [Evaluation limitations](docs/evaluation-status.md)
 
-IatrogeniX is an edge-ready, hybrid LLM architecture that secures clinical AI systems in low-connectivity, high-privacy environments. By layering a **Deterministic Safety Validator** over the latest **Gemma 4 E2B** model, it catches and blocks life-threatening hallucinations (like fatal drug doses) in real-time.
+The engineering question is how much fine-tuning and a separate rule layer each change model behaviour. The existing results show useful failure modes, including answer-position bias; they do not establish clinical safety or a global model ranking.
 
-### 🏆 Hackathon Alignment (Health, Safety, & Trust)
-*   **Privacy & Low-Connectivity**: Inference runs 100% offline on a consumer 8GB VPS (no data sent to external APIs).
-*   **Safety & Trust**: LLMs are probabilistic, but medicine requires guarantees. Our symbolic safety layer intercepts outputs and checks them against rigid algorithmic databases.
-*   **Accessibility**: Leverages 4-bit quantization and real-time dataset streaming to run end-to-end training pipelines on a Free Google Colab T4.
-
----
-
-## 🏗️ System Architecture
+## Architecture
 
 ```mermaid
-graph TD
-    A[Clinical Question] --> B[Gemma 4 E2B-it GGUF]
-    B --> C{Safety Validator}
-    C -- "Safe" --> D[Model Output]
-    C -- "Warning/Blocked" --> E[Injected Disclaimer + Correction]
-    
-    subgraph "Safety Layer"
-    C --> F[(Drug Reference DB)]
-    C --> G[(ICU Protocols DB)]
-    C --> H[Pattern Recognition]
-    end
-    
-    F -.-> I[100 Drugs/Spec]
-    G -.-> J[Oxford ICU Protocols]
-    H -.-> K[Dose/Hallucination/Overconfidence]
+flowchart LR
+    Q[Question] --> M[Gemma-based GGUF model]
+    M --> V[Deterministic validator]
+    V --> O[Output and detected issues]
+    D[Bundled drug reference data] --> V
 ```
 
----
+The inference service exposes raw generation at `/generate` and generation with output checks at `/generate/safe`. The validator checks a bounded list of fictional names, dose patterns and overconfident wording. Some evaluation checks can also compare against a supplied reference answer; that reference is not available for ordinary user questions.
 
-## 🔬 Core Features
+A `safe` status means these implemented checks did not flag the output. It does not mean the answer is medically correct or safe to act on.
 
-### 1. Fine-tuned Clinical Reasoning
-Leverages **Unsloth** and **LoRA** to adapt Google's Gemma 4 (2B) to professional medical Q&A.
-- **Data Pipeline**: Aggregates MedQA-USMLE, MedMCQA, and rule-based clinical extractions.
-- **Precision**: Q5_K_M quantization for high-fidelity medical handling on the native April 2026 Gemma 4 architecture.
+## What the existing evaluation reports
 
-### 2. Symbolic Safety Layer
-A robust validation framework that monitors model outputs in real-time.
-- **Drug Verification**: Cross-references doses against 1,000+ entries from the Oxford Handbook.
-- **Hallucination Detection**: Flags fabricated drug names and deviations from ground truth.
-- **Confidence Calibration**: Detects "overconfident" absolute language and enforces clinical hedging.
+The checked-in [four-way ablation report](docs/ablation_study.md) describes 1,000 cases from a mixed medical-question suite. These are previously reported internal results, not a new independent rerun.
 
-### 3. Factual Benchmarking & Global Ranking (April 2026)
-IatrogeniX is evaluated against a consolidated suite of 20+ clinical and foundational models. Metrics represent normalized accuracy across MedQA, MedMCQA, and MMLU-Medical.
+| Configuration | Extracted-letter accuracy | Similarity ≥ 0.6 |
+|---|---:|---:|
+| Fine-tuned model, validator on | 36.7% | 51.4% |
+| Fine-tuned model, validator off | 37.2% | 52.0% |
+| Base model, validator on | 43.6% | 22.0% |
+| Base model, validator off | 43.6% | 22.1% |
 
-#### **Frontier Class (>70B Parameters)**
-| Rank | Model Name | Class | Avg Accuracy | Standing |
-|---|---|---|---|---|
-| #1 | **GPT-4 Turbo** | Proprietary | **87.4%** | Ref SOTA |
-| #3 | **google/medgemma-27b** | Med SOTA | **85.7%** | Specialized |
-| #5 | **aaditya/OpenBioLLM-70B** | Bio Tune | **83.2%** | Community |
-| #8 | **Meta-Llama-3-70B** | Gen Open | **77.0%** | General |
+The second metric is the proportion of outputs above an SBERT cosine-similarity threshold. It is not standard MCQ accuracy and is not directly comparable with MedQA leaderboard scores. The fine-tuned model scores lower on extracted-letter accuracy than the base in this report; the report identifies positional bias as a failure mode.
 
-#### **Edge Class (<10B Parameters)**
-| Class Rank | Model Name | Parameters | Avg Accuracy | Stand-off |
-|---|---|---|---|---|
-| **#1** | **IatrogeniX (2.6B)** | **2.6B** | **83.1%** | **Edge SOTA** |
-| #2 | **Llama-3-8B-UltraMedical** | 8B | **72.0%** | Med-Tuned |
-| #3 | **google/medgemma-4b** | 4B | **67.4%** | Med-Tuned |
-| #6 | **Meta-Llama-3-8B** | 8B | **63.9%** | Gen Base |
-| #8 | **microsoft/Phi-4-mini** | 3.8B | **61.3%** | Gen Base |
+The old **83.1% / global #1** headline is withdrawn pending substantiation. The earlier comparison report contains fixed reference scores, a zero-item baseline and no per-question comparison records. It does not demonstrate a controlled leaderboard result. Historical documents may still contain those earlier claims; use this README and the limitations note as the current status.
 
-> [!IMPORTANT]
-> **Performance Density**: IatrogeniX (2.6B) is the highest-ranked medical LLM globally in the <10B parameter class, factually matching the reasoning depth of 70B parameter foundational models.
+No new hosted ARC-Challenge score is available. A pinned ARC evaluation would measure general science reasoning of the model artifact, not clinical safety or the separate Python validator.
 
-### 🔬 Technical Reports
-Detailed diagnostic analysis and competitive research are available in the [docs/](file:///root/IatrogeniX/docs/) directory:
-- [**Clinical Standoff Analysis**](file:///root/IatrogeniX/docs/standoff_analysis.md): Head-to-head comparison across 20+ models.
-- [**Medical LLM Landscape**](file:///root/IatrogeniX/docs/landscape_analysis.md): A study of April 2026 open-weight SOTA architectures.
-- [**Model Critique & Risks**](file:///root/IatrogeniX/docs/model_critique.md): A critical analysis of failure modes and clinical reasoning risks.
+## Try the model locally
 
----
+Download `iatrogenix-q5_k_m.gguf` from the [model repository](https://huggingface.co/kayomarz97/IatrogeniX/tree/main) into a local `models/` directory. The artifact revision inspected for the pending hosted benchmark is `2c126966cdc121ec497ea805718a3a227f774959`.
 
-## 🚀 Quick Start (Local Inference)
+The repository's `requirements.txt` combines training and inference packages. For an inference-only environment, install the relevant runtime dependencies in an isolated environment:
 
-### 1. Installation
 ```bash
-pip install -r requirements.txt
-```
-
-### 2. Run Inference Server (FastAPI)
-```bash
-# Set your model path
+python3 -m venv .venv
+source .venv/bin/activate
+pip install llama-cpp-python fastapi uvicorn
 export IATROGENIX_MODEL="models/iatrogenix-q5_k_m.gguf"
-
-# Start the engine
-uvicorn inference.engine:app --host 0.0.0.0 --port 8000
+uvicorn inference.engine:app --host 127.0.0.1 --port 8000
 ```
 
-### 3. API Usage
+Use a llama.cpp / llama-cpp-python build compatible with the model's architecture. Installation and hardware requirements depend on the runtime; the commands above have not been rerun as part of this documentation correction.
+
 ```bash
-curl -X POST "http://localhost:8000/generate/safe" \
-     -H "Content-Type: application/json" \
-     -d '{"question": "How do I treat a STEMI in a 65yo male?"}'
+curl -X POST http://127.0.0.1:8000/generate/safe \
+  -H 'Content-Type: application/json' \
+  -d '{"question":"Explain how this research model handles uncertainty."}'
 ```
 
----
+Do not supply a reference answer for a deployment-representative validator test. Evaluate model-only and validator-on configurations separately.
 
-## 🛠️ Project Structure
-```
-iatrogenix/
-├── docs/           # Clinical standoff, landscape, and critique reports
-├── training/       # Data pipe & LoRA training (Colab)
-├── inference/      # FastAPI server & GGUF loading
-├── safety/        # The Validator & Reference JSONs
-├── evaluation/    # Benchmarks & Comparison scripts
-└── models/        # GGUF model targets
-```
+## What needs measuring next
 
----
+- A complete pinned run with the model revision, artifact, harness commit, task version, prompt format, seed, few-shot count and full scores retained.
+- An identical base-model run before making improvement claims.
+- A validator-on evaluation without access to reference answers, with both missed issues and unnecessary warnings counted.
+- A held-out medical evaluation with a documented split, standard scoring and a training-data overlap check.
 
-## ⚠️ Disclaimer
-**THIS PROJECT IS FOR DEMO/PORTFOLIO PURPOSES ONLY.**
-IatrogeniX is a research project demonstrating hybrid AI architectures. It is NOT a clinical tool and should never be used to make medical decisions. The "IatrogeniX" name highlights the inherent risk of model hallucination in high-stakes fields.
+## Repository map
 
----
-*Created as a portfolio piece for clinical AI safety and architectural engineering.*
+- `inference/`: FastAPI service and GGUF loading.
+- `safety/`: rule-based validator and bundled reference data.
+- `evaluation/`: existing harnesses and result files.
+- `docs/ablation_study.md`: prior four-way ablation and failure analysis.
+- `docs/evaluation-status.md`: evidence limits and interpretation.
+
+Research and portfolio demonstration only. Do not use this project to make medical decisions.
